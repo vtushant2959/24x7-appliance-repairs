@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { Section } from "@/components/ui";
+import { areas, articles, brands, services } from "@/lib/data";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({ title: "HTML Sitemap", description: "Browse all important pages on The Home Appliance Services website." });
+export default function SitemapPage() { const links = [{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }, ...services.map((s) => ({ label: s.name, href: `/services/${s.slug}` })), ...areas.map((a) => ({ label: a.name, href: `/service-areas/${a.slug}` })), ...brands.map((b) => ({ label: b.name, href: `/brands/${b.slug}` })), ...articles.map((a) => ({ label: a.title, href: `/blog/${a.slug}` }))]; return <main><Section eyebrow="Sitemap" title="Website sitemap"><div className="mt-8 grid gap-2 md:grid-cols-3">{links.map((link) => <Link className="rounded-md border border-slate-200 p-3 hover:border-brand-blue dark:border-slate-800" key={link.href} href={link.href}>{link.label}</Link>)}</div></Section></main>; }

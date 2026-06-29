@@ -1,0 +1,15 @@
+{
+  "name": "The Home Appliance Services",
+  "short_name": "THAS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a63d8",
+  "icons": [
+    {
+      "src": "/aamir-bhaiya-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

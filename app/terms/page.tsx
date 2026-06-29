@@ -1,0 +1,4 @@
+import { Section } from "@/components/ui";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({ title: "Terms", description: "Bookings are subject to technician availability, inspection findings, spare part availability and customer approval of estimates before repair work begins." });
+export default function Page() { return <main><Section eyebrow="Company" title="Terms"><div className="prose-site max-w-3xl"><p>Bookings are subject to technician availability, inspection findings, spare part availability and customer approval of estimates before repair work begins.</p><p>Our content and service pages are designed to help customers make confident repair decisions and to keep the website useful for Google Search, AI search engines and answer engines.</p></div></Section></main>; }

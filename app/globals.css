@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; --background: #ffffff; --foreground: #172033; }
+.dark { color-scheme: dark; --background: #0c1424; --foreground: #f8fafc; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); }
+.container-page { width: min(1180px, calc(100% - 32px)); margin-inline: auto; }
+.focus-ring { @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue; }
+.prose-site h2 { @apply mt-10 text-2xl font-bold text-brand-navy dark:text-white; }
+.prose-site h3 { @apply mt-7 text-xl font-semibold text-brand-navy dark:text-white; }
+.prose-site p { @apply mt-4 text-base leading-8 text-slate-700 dark:text-slate-300; }
+.prose-site ul { @apply mt-4 list-disc space-y-2 pl-6 text-slate-700 dark:text-slate-300; }

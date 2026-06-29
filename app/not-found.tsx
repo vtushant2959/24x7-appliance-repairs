@@ -1,0 +1,2 @@
+import { ButtonLink, Section } from "@/components/ui";
+export default function NotFound() { return <main><Section eyebrow="404" title="Page not found"><p className="mt-4 max-w-2xl text-slate-600 dark:text-slate-300">The page may have moved, but booking appliance repair is still easy.</p><div className="mt-6"><ButtonLink href="/">Go Home</ButtonLink></div></Section></main>; }

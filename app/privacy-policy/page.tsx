@@ -1,0 +1,4 @@
+import { Section } from "@/components/ui";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({ title: "Privacy Policy", description: "We collect contact and booking details only to respond to service requests, manage appointments, improve customer support and meet legal obligations. We do not sell personal information." });
+export default function Page() { return <main><Section eyebrow="Company" title="Privacy Policy"><div className="prose-site max-w-3xl"><p>We collect contact and booking details only to respond to service requests, manage appointments, improve customer support and meet legal obligations. We do not sell personal information.</p><p>Our content and service pages are designed to help customers make confident repair decisions and to keep the website useful for Google Search, AI search engines and answer engines.</p></div></Section></main>; }

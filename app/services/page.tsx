@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { Section } from "@/components/ui";
+import { services } from "@/lib/data";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({ title: "Appliance Repair Services", description: "Explore AC, refrigerator, washing machine, microwave, dishwasher and dryer repair services by The Home Appliance Services." });
+export default function ServicesPage() { return <main><Section eyebrow="Services" title="Home appliance repair services"><div className="mt-8 grid gap-5 md:grid-cols-3">{services.map((service) => <Link className="rounded-lg border border-slate-200 p-6 hover:border-brand-blue dark:border-slate-800" key={service.slug} href={`/services/${service.slug}`}><h2 className="text-xl font-bold text-brand-navy dark:text-white">{service.name}</h2><p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">Professional doorstep {service.name.toLowerCase()} for common faults, symptoms, spare parts and preventive maintenance.</p></Link>)}</div></Section></main>; }
