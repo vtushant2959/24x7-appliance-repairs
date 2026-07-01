@@ -23,14 +23,18 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
       <div className="bg-brand-navy text-white">
-        <div className="container-page flex min-h-10 flex-wrap items-center justify-between gap-2 py-2 text-sm">
-          <span>Same day doorstep appliance repair across Delhi NCR</span>
-          <div className="flex gap-4">
-            <a href={site.phoneHref}>Call {site.phone}</a>
-            <a href={site.whatsappHref}>WhatsApp</a>
-          </div>
-        </div>
-      </div>
+  <div className="container-page flex min-h-10 flex-wrap items-center justify-between gap-2 py-2 text-sm">
+    <span>Same day doorstep appliance repair across Delhi NCR</span>
+
+    <div className="flex gap-4">
+      <a href={site.phoneHref}>Call +91 7669922991</a>
+      <a href={site.phoneHref2}>Call +91 7669922990</a>
+
+      <a href={site.whatsappHref}>WhatsApp 7669922990</a>
+      <a href={site.whatsappHref2}>WhatsApp 7669922991</a>
+    </div>
+  </div>
+</div>
       <div className="container-page flex min-h-20 items-center justify-between gap-4">
         <Link
           href="/"

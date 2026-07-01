@@ -3,10 +3,13 @@ export const site = {
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://www.thehomeapplianceservices.com",
-  phone: "+91 7669922991",
+  phone: "+91 7669922991, +91 7669922990",
   phoneHref: "tel:+917669922991",
+  phoneHref2: "tel:+917669922990",
   whatsappHref:
     "https://wa.me/917669922990?text=I%20need%20home%20appliance%20repair%20service",
+  whatsappHref2:
+    "https://wa.me/917669922991?text=I%20need%20home%20appliance%20repair%20service",
   email: "amirsaifi8882451030@gmail.com",
   hours: "24x7",
   address:
