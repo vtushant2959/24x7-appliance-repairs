@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Section } from "@/components/ui";
-import { brands } from "@/lib/data";
+import { brands } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Brands We Repair",
   description:
-    "Samsung, LG, IFB, Bosch, Whirlpool, Voltas, Panasonic, Haier, Toshiba and Hitachi appliance repair support.",
+    "Samsung, LG, IFB, Bosch, Whirlpool, Haier and Hitachi appliance repair support across Delhi NCR.",
 });
 export default function BrandsPage() {
   return (

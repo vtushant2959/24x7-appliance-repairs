@@ -2,8 +2,9 @@ import Link from "next/link";
 import { FAQList } from "@/components/FAQList";
 import { LeadForm } from "@/components/LeadForm";
 import { ButtonLink, Section } from "@/components/ui";
-import { areas, brands, services, trustPoints } from "@/lib/data";
+import { areas, brands, getErrorCodesByService, getProblemsByService, services } from "@/lib/content";
 import { site } from "@/lib/site";
+
 export function ServiceContent({
   service,
 }: {
@@ -12,7 +13,7 @@ export function ServiceContent({
   const serviceFaqs = [
     {
       question: `What is the fastest way to book ${service.name.toLowerCase()}?`,
-      answer: `Call or WhatsApp The Home Appliance Services and share your appliance brand, model and issue. A technician visit can usually be arranged the same day in active service areas.`,
+      answer: `Call or WhatsApp ${site.name} and share your appliance brand, model and issue. A technician visit can usually be arranged the same day in active service areas.`,
     },
     {
       question: `How do technicians diagnose ${service.appliance} faults?`,
@@ -20,9 +21,12 @@ export function ServiceContent({
     },
     {
       question: `Do you repair all major ${service.appliance} brands?`,
-      answer: `Yes. We cover Samsung, LG, IFB, Bosch, Whirlpool, Voltas, Panasonic, Haier, Toshiba and Hitachi models used in Delhi NCR homes.`,
+      answer: `Yes. We cover ${brands.map((b) => b.name).join(", ")} models used in Delhi NCR homes.`,
     },
   ];
+  const relatedProblems = getProblemsByService(service.slug);
+  const relatedErrorCodes = getErrorCodesByService(service.slug);
+
   return (
     <>
       <Section
@@ -32,12 +36,11 @@ export function ServiceContent({
         <div className="mt-6 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="prose-site">
             <p>
-              The Home Appliance Services provides professional{" "}
-              {service.name.toLowerCase()} for homes and small offices across
-              Faridabad, South Delhi, Noida, Greater Noida, Gurugram, Ghaziabad,
-              Ballabhgarh and Palwal. The focus is simple: diagnose the real
-              fault, explain the repair in plain language and complete the work
-              with clean doorstep service.
+              {site.name} provides professional {service.name.toLowerCase()}{" "}
+              for homes and small offices across Faridabad, Ballabhgarh, South
+              Delhi, Noida, Greater Noida, Gurugram and Ghaziabad. The focus is
+              simple: diagnose the real fault, explain the repair in plain
+              language and complete the work with clean doorstep service.
             </p>
             <h3>Common issues</h3>
             <ul>
@@ -62,16 +65,60 @@ export function ServiceContent({
           <LeadForm compact defaultService={service.name} />
         </div>
       </Section>
+
+      {relatedProblems.length > 0 && (
+        <Section eyebrow="Troubleshooting" title="Common problems with this appliance">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedProblems.map((problem) => (
+              <Link
+                key={problem.slug}
+                href={`/problems/${problem.slug}`}
+                className="rounded-lg border border-slate-200 p-5 hover:border-brand-blue dark:border-slate-800"
+              >
+                <h3 className="font-bold text-brand-navy dark:text-white">{problem.name}</h3>
+                <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                  {problem.symptoms[0]}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {relatedErrorCodes.length > 0 && (
+        <Section eyebrow="Error codes" title={`${service.appliance} error codes we fix`}>
+          <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedErrorCodes.map((code) => (
+              <Link
+                key={code.slug}
+                href={`/error-codes/${code.slug}`}
+                className="rounded-lg border border-slate-200 p-4 hover:border-brand-blue dark:border-slate-800"
+              >
+                <span className="font-bold text-brand-blue">
+                  {brands.find((b) => b.slug === code.brandSlug)?.name} {code.code}
+                </span>
+                <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{code.meaning}</p>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
       <Section eyebrow="Benefits" title="Why customers choose us">
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {trustPoints.map((point) => (
+          {[
+            "Same-day doorstep visit",
+            "Trained appliance technicians",
+            "Transparent inspection before repair",
+            "Original spare parts where available",
+            "Service support after completion",
+            "Clean, respectful home visits",
+          ].map((point) => (
             <div
               key={point}
               className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-950"
             >
-              <h3 className="font-bold text-brand-navy dark:text-white">
-                {point}
-              </h3>
+              <h3 className="font-bold text-brand-navy dark:text-white">{point}</h3>
               <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
                 A practical service promise designed for busy households that
                 need reliable repair without confusing technical talk.
@@ -80,10 +127,8 @@ export function ServiceContent({
           ))}
         </div>
       </Section>
-      <Section
-        eyebrow="Coverage"
-        title={`${service.name} service areas and brands`}
-      >
+
+      <Section eyebrow="Coverage" title={`${service.name} service areas and brands`}>
         <div className="mt-8 grid gap-6 md:grid-cols-2">
           <div>
             <h3 className="font-bold">Service areas</h3>
@@ -115,6 +160,7 @@ export function ServiceContent({
           </div>
         </div>
       </Section>
+
       <Section eyebrow="People also ask" title={`${service.name} FAQs`}>
         <FAQList items={serviceFaqs} />
         <div className="mt-8 flex gap-3">

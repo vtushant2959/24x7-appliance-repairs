@@ -1,8 +1,9 @@
 export const site = {
-  name: "The Home Appliance Services",
+  name: "24x7 Appliance Repairs",
+  shortName: "24x7 Appliance Repairs",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://www.thehomeapplianceservices.com",
+    "https://www.24x7appliancerepairs.com",
   phone: "+91 7669922991, +91 7669922990",
   phonePrimary: "+91 7669922991",
   phoneHref: "tel:+917669922991",
@@ -14,7 +15,5 @@ export const site = {
   email: "amirsaifi8882451030@gmail.com",
   hours: "24x7",
   address:
-    "Doorstep appliance repair across Faridabad, South Delhi, Noida, Greater Noida, Gurugram, Ghaziabad and Ballabhgarh",
-  rating: "4.9",
-  reviewCount: "1850",
+    "Doorstep appliance repair across Faridabad, Ballabhgarh, South Delhi, Noida, Greater Noida, Gurugram and Ghaziabad",
 };

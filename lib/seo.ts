@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { site } from "@/lib/site";
+import { areas } from "@/lib/content/areas";
+import { reviews } from "@/lib/content/reviews";
+import type { Article } from "@/lib/content/types";
+
 export function pageMetadata({
   title,
   description,
@@ -38,8 +42,20 @@ export function pageMetadata({
     robots: { index: true, follow: true },
   };
 }
-export function localBusinessSchema() {
+
+export function organizationSchema() {
   return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: site.name,
+    url: site.url,
+    telephone: site.phonePrimary,
+    email: site.email,
+  };
+}
+
+export function localBusinessSchema() {
+  const base = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: site.name,
@@ -47,24 +63,77 @@ export function localBusinessSchema() {
     telephone: site.phonePrimary,
     email: site.email,
     address: site.address,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: site.rating,
-      reviewCount: site.reviewCount,
-    },
-    areaServed: [
-      "Faridabad",
-      "South Delhi",
-      "Noida",
-      "Greater Noida",
-      "Gurugram",
-      "Ghaziabad",
-      "Ballabhgarh",
-      "Palwal",
-    ],
+    areaServed: areas.map((area) => area.name),
     openingHours: "Mo-Su 00:00-23:59",
   };
+  if (reviews.length === 0) return base;
+  const avg =
+    reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length;
+  return {
+    ...base,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: avg.toFixed(1),
+      reviewCount: String(reviews.length),
+    },
+  };
 }
+
+export function serviceSchema({
+  serviceName,
+  path,
+}: {
+  serviceName: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: serviceName,
+    serviceType: serviceName,
+    url: new URL(path, site.url).toString(),
+    provider: {
+      "@type": "LocalBusiness",
+      name: site.name,
+      telephone: site.phonePrimary,
+    },
+    areaServed: areas.map((area) => area.name),
+  };
+}
+
+export function articleSchema(article: Article) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: article.title,
+    description: article.excerpt,
+    datePublished: article.publishedAt,
+    dateModified: article.updatedAt,
+    author: { "@type": "Organization", name: site.name },
+    publisher: { "@type": "Organization", name: site.name },
+  };
+}
+
+export function problemSchema({
+  name,
+  description,
+  path,
+}: {
+  name: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: name,
+    description,
+    url: new URL(path, site.url).toString(),
+    author: { "@type": "Organization", name: site.name },
+    publisher: { "@type": "Organization", name: site.name },
+  };
+}
+
 export function faqSchema(items: { question: string; answer: string }[]) {
   return {
     "@context": "https://schema.org",
@@ -76,6 +145,7 @@ export function faqSchema(items: { question: string; answer: string }[]) {
     })),
   };
 }
+
 export function breadcrumbSchema(items: { name: string; url: string }[]) {
   return {
     "@context": "https://schema.org",

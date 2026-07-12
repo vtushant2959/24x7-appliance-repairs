@@ -3,11 +3,12 @@ import { LeadForm } from "@/components/LeadForm";
 import { Section } from "@/components/ui";
 import { site } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
+
 export const metadata = pageMetadata({
   title: "Contact",
-  description:
-    "Contact The Home Appliance Services for doorstep appliance repair by call, WhatsApp, email or booking form.",
+  description: `Contact ${site.name} for doorstep appliance repair by call, WhatsApp, email or booking form.`,
 });
+
 export default function ContactPage() {
   return (
     <main>
@@ -38,7 +39,7 @@ export default function ContactPage() {
         className="h-96 w-full border-0"
         loading="lazy"
         src="https://www.google.com/maps?q=Faridabad%20appliance%20repair&output=embed"
-        title="Google map for The Home Appliance Services"
+        title={`Google map for ${site.name}`}
       />
     </main>
   );
