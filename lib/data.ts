@@ -1,6 +1,20 @@
 import { slugify } from "@/lib/utils";
 export const services = [
-  
+  {
+    name: "AC Repair",
+    slug: "ac-repair",
+    appliance: "air conditioner",
+    image:
+      "https://images.unsplash.com/photo-1621275471769-e6aa344546d5?auto=format&fit=crop&w=1200&q=80",
+    issues: [
+      "No cooling",
+      "Gas leakage",
+      "Water leakage",
+      "Compressor fault",
+      "Bad odour",
+      "Remote or PCB issue",
+    ],
+  },
   {
     name: "Refrigerator Repair",
     slug: "refrigerator-repair",
@@ -154,20 +168,19 @@ const seeds = [
 ];
 export const faqs = Array.from({ length: 100 }, (_, index) => {
   const base = seeds[index % seeds.length];
-  const area = areas[index % areas.length].name;
+  if (index < seeds.length) return { question: base[0], answer: base[1] };
+  const area = areas[Math.floor(index / seeds.length) % areas.length].name;
   const service = services[index % services.length].name.toLowerCase();
-  return index < seeds.length
-    ? { question: base[0], answer: base[1] }
-    : {
-        question: base[0].replace("?", " in " + area + "?"),
-        answer:
-          base[1] +
-          " For " +
-          service +
-          " in " +
-          area +
-          ", call or WhatsApp The Home Appliance Services for a quick doorstep visit.",
-      };
+  return {
+    question: base[0].replace("?", ` for ${service} in ${area}?`),
+    answer:
+      base[1] +
+      " For " +
+      service +
+      " in " +
+      area +
+      ", call or WhatsApp The Home Appliance Services for a quick doorstep visit.",
+  };
 });
 const articleTitles = [
   "Complete Refrigerator Repair Guide for Delhi NCR Homes",

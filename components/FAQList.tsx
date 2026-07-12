@@ -5,9 +5,9 @@ export function FAQList({
 }) {
   return (
     <div className="mt-8 grid gap-3">
-      {items.map((item) => (
+      {items.map((item, index) => (
         <details
-          key={item.question}
+          key={`${index}-${item.question}`}
           className="rounded-lg border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-950"
         >
           <summary className="cursor-pointer font-bold text-brand-navy dark:text-white">

@@ -4,6 +4,7 @@ export const site = {
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://www.thehomeapplianceservices.com",
   phone: "+91 7669922991, +91 7669922990",
+  phonePrimary: "+91 7669922991",
   phoneHref: "tel:+917669922991",
   phoneHref2: "tel:+917669922990",
   whatsappHref:

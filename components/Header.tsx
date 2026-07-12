@@ -18,7 +18,13 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [dark, setDark] = useState(false);
   useEffect(() => {
+    const stored = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setDark(stored ? stored === "dark" : prefersDark);
+  }, []);
+  useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
+    localStorage.setItem("theme", dark ? "dark" : "light");
   }, [dark]);
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
@@ -42,12 +48,12 @@ export function Header() {
           aria-label="The Home Appliance Services home"
         >
           <Image
-            src="/aamir-bhaiya-logo.svg"
+            src="/logo.png"
             alt="The Home Appliance Services logo"
-            width={150}
+            width={48}
             height={48}
             priority
-            className="h-12 w-auto"
+            className="h-12 w-12"
           />
           <span className="sr-only">The Home Appliance Services</span>
         </Link>

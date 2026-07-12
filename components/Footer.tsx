@@ -9,11 +9,11 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/aamir-bhaiya-logo.svg"
+              src="/logo.png"
               alt="The Home Appliance Services logo"
-              width={170}
-              height={54}
-              className="h-14 w-auto"
+              width={56}
+              height={56}
+              className="h-14 w-14"
             />
             <span className="sr-only">The Home Appliance Services</span>
           </div>

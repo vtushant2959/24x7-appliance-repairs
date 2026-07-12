@@ -13,8 +13,18 @@ const schema = z.object({
   message: z.string().optional(),
 });
 type FormValues = z.infer<typeof schema>;
-export function LeadForm({ compact = false }: { compact?: boolean }) {
+export function LeadForm({
+  compact = false,
+  defaultService,
+  defaultArea,
+}: {
+  compact?: boolean;
+  defaultService?: string;
+  defaultArea?: string;
+}) {
   const [status, setStatus] = useState("");
+  const initialService = defaultService || services[0].name;
+  const initialArea = defaultArea || areas[0].name;
   const {
     register,
     handleSubmit,
@@ -22,7 +32,7 @@ export function LeadForm({ compact = false }: { compact?: boolean }) {
     formState: { errors, isSubmitting },
   } = useForm<FormValues>({
     resolver: zodResolver(schema),
-    defaultValues: { service: services[0].name, area: areas[0].name },
+    defaultValues: { service: initialService, area: initialArea },
   });
   async function onSubmit(values: FormValues) {
     setStatus("");
@@ -35,8 +45,8 @@ export function LeadForm({ compact = false }: { compact?: boolean }) {
     setStatus(data.message);
     if (response.ok)
       reset({
-        service: services[0].name,
-        area: areas[0].name,
+        service: initialService,
+        area: initialArea,
         name: "",
         phone: "",
         message: "",

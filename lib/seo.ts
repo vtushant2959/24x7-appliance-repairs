@@ -44,7 +44,7 @@ export function localBusinessSchema() {
     "@type": "LocalBusiness",
     name: site.name,
     url: site.url,
-    telephone: site.phone,
+    telephone: site.phonePrimary,
     email: site.email,
     address: site.address,
     aggregateRating: {
@@ -62,7 +62,7 @@ export function localBusinessSchema() {
       "Ballabhgarh",
       "Palwal",
     ],
-    openingHours: "Mo-Su 08:00-21:00",
+    openingHours: "Mo-Su 00:00-23:59",
   };
 }
 export function faqSchema(items: { question: string; answer: string }[]) {

@@ -127,7 +127,7 @@ export default async function ArticlePage({
           </div>
         </Section>
         <Section title="Book help for this issue">
-          <LeadForm />
+          <LeadForm defaultService={post.service} />
         </Section>
         <Section title="Related questions">
           <FAQList items={articleFaqs} />

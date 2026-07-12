@@ -188,7 +188,7 @@ export default function HomePage() {
               available technician.
             </p>
           </div>
-          <ButtonLink href={site.phoneHref}>Call {site.phone}</ButtonLink>
+          <ButtonLink href={site.phoneHref}>Call {site.phonePrimary}</ButtonLink>
         </div>
       </section>
     </main>

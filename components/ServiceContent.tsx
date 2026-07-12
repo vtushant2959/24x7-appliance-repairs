@@ -3,6 +3,7 @@ import { FAQList } from "@/components/FAQList";
 import { LeadForm } from "@/components/LeadForm";
 import { ButtonLink, Section } from "@/components/ui";
 import { areas, brands, services, trustPoints } from "@/lib/data";
+import { site } from "@/lib/site";
 export function ServiceContent({
   service,
 }: {
@@ -58,7 +59,7 @@ export function ServiceContent({
               are no surprise approvals.
             </p>
           </div>
-          <LeadForm compact />
+          <LeadForm compact defaultService={service.name} />
         </div>
       </Section>
       <Section eyebrow="Benefits" title="Why customers choose us">
@@ -117,8 +118,8 @@ export function ServiceContent({
       <Section eyebrow="People also ask" title={`${service.name} FAQs`}>
         <FAQList items={serviceFaqs} />
         <div className="mt-8 flex gap-3">
-          <ButtonLink href="tel:+919876543210">Call Now</ButtonLink>
-          <ButtonLink href="https://wa.me/919876543210" variant="secondary">
+          <ButtonLink href={site.phoneHref}>Call Now</ButtonLink>
+          <ButtonLink href={site.whatsappHref} variant="secondary">
             WhatsApp
           </ButtonLink>
         </div>
