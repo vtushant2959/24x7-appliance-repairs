@@ -9,9 +9,23 @@ export const site = {
   phoneHref: "tel:+917669922991",
   phoneHref2: "tel:+917669922990",
   whatsappHref:
-    "https://wa.me/917669922990?text=I%20need%20home%20appliance%20repair%20service",
-  whatsappHref2:
     "https://wa.me/917669922991?text=I%20need%20home%20appliance%20repair%20service",
+  whatsappHref2:
+    "https://wa.me/917669922990?text=I%20need%20home%20appliance%20repair%20service",
+  contactNumbers: [
+    {
+      display: "7669922991",
+      phoneHref: "tel:+917669922991",
+      whatsappHref:
+        "https://wa.me/917669922991?text=I%20need%20home%20appliance%20repair%20service",
+    },
+    {
+      display: "7669922990",
+      phoneHref: "tel:+917669922990",
+      whatsappHref:
+        "https://wa.me/917669922990?text=I%20need%20home%20appliance%20repair%20service",
+    },
+  ],
   email: "amirsaifi8882451030@gmail.com",
   hours: "24x7",
   address:

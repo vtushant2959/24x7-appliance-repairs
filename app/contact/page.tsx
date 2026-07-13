@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { ContactLinks } from "@/components/ContactLinks";
 import { LeadForm } from "@/components/LeadForm";
 import { Section } from "@/components/ui";
 import { site } from "@/lib/site";
@@ -15,12 +16,10 @@ export default function ContactPage() {
       <Section eyebrow="Contact" title="Book appliance repair">
         <div className="mt-8 grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="grid gap-4">
-            <a
-              className="rounded-lg border border-slate-200 p-5 dark:border-slate-800"
-              href={site.phoneHref}
-            >
-              <Phone /> <strong>{site.phone}</strong>
-            </a>
+            <div className="rounded-lg border border-slate-200 p-5 dark:border-slate-800">
+              <p className="mb-3 font-semibold">Call or WhatsApp us</p>
+              <ContactLinks source="contact_page" />
+            </div>
             <a
               className="rounded-lg border border-slate-200 p-5 dark:border-slate-800"
               href={`mailto:${site.email}`}

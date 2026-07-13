@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, Moon, Phone, Sun, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ContactLinks } from "@/components/ContactLinks";
 import { areas, brands, services } from "@/lib/content";
-import { trackPhoneClick, trackWhatsappClick } from "@/lib/analytics";
+import { trackPhoneClick } from "@/lib/analytics";
 import { site } from "@/lib/site";
 
 const nav = [
@@ -38,14 +39,7 @@ export function Header() {
       <div className="bg-brand-navy text-white">
         <div className="container-page flex min-h-10 flex-wrap items-center justify-between gap-2 py-2 text-sm">
           <span>24x7 doorstep appliance repair across Delhi NCR</span>
-          <div className="flex gap-4">
-            <a href={site.phoneHref} onClick={() => trackPhoneClick("header_bar")}>
-              Call {site.phonePrimary}
-            </a>
-            <a href={site.whatsappHref} onClick={() => trackWhatsappClick("header_bar")}>
-              WhatsApp
-            </a>
-          </div>
+          <ContactLinks variant="bar" source="header_bar" />
         </div>
       </div>
       <div className="container-page flex min-h-20 items-center justify-between gap-4">

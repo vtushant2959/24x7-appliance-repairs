@@ -16,7 +16,7 @@ import {
 import { breadcrumbSchema, pageMetadata, serviceSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-// Curated combos only — never render a brand/service/location combination
+// Curated combos only - never render a brand/service/location combination
 // that isn't explicitly listed in lib/content/combos.ts. This is the code-level
 // guardrail against Google doorway-page treatment: anything outside the
 // curated list 404s rather than silently rendering a templated page.

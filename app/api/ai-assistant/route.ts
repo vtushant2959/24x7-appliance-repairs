@@ -14,7 +14,7 @@ const requestSchema = z.object({
 });
 
 // Minimal in-memory per-IP rate limit. Resets on cold start and doesn't
-// share state across serverless instances — acceptable for launch, but the
+// share state across serverless instances - acceptable for launch, but the
 // documented follow-up is @upstash/ratelimit + @upstash/redis once traffic
 // justifies provisioning a shared store.
 const RATE_LIMIT = 15;

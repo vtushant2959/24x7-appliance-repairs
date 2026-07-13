@@ -7,7 +7,7 @@ import { trackAiAssistantOpen } from "@/lib/analytics";
 
 // Lazy-loaded and only mounted after the launcher is clicked, so the chat
 // widget's JS (and the fetch logic behind it) never ships in the initial
-// page bundle — keeps this off the Core Web Vitals critical path.
+// page bundle - keeps this off the Core Web Vitals critical path.
 const ChatWidget = dynamic(
   () => import("@/components/ai/ChatWidget").then((mod) => mod.ChatWidget),
   { ssr: false },

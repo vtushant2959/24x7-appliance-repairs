@@ -2,13 +2,13 @@ import type { ComboPage } from "./types";
 
 /**
  * Curated brand + service + location landing pages.
- * Deliberately NOT the full 7x7x5=245 matrix — see app/repair/[brand]/[service]/[location]/page.tsx,
+ * Deliberately NOT the full 7x7x5=245 matrix - see app/repair/[brand]/[service]/[location]/page.tsx,
  * which sets dynamicParams=false and only builds the combos listed here. Selected by realistic
  * search intent rather than mechanical coverage: Samsung/LG get the broadest spread since they
  * dominate Indian appliance-repair search volume, IFB is washing-machine-only (its specialty),
  * Bosch skews premium/dishwasher, Whirlpool is strongest on refrigerators, and Haier/Hitachi get
  * one flagship combo each. Dryer is excluded from every combo (low household penetration in
- * India makes a dryer combo page thin/low-intent) — dryer keeps its standalone service page only.
+ * India makes a dryer combo page thin/low-intent) - dryer keeps its standalone service page only.
  */
 export const combos: ComboPage[] = [
   {
@@ -49,7 +49,7 @@ export const combos: ComboPage[] = [
     serviceSlug: "washing-machine-repair",
     areaSlug: "faridabad",
     localIntro:
-      "Samsung washing machines, especially digital inverter front-load models, are common across Faridabad — we regularly diagnose 4E water-fill and 5E drain faults on these machines.",
+      "Samsung washing machines, especially digital inverter front-load models, are common across Faridabad - we regularly diagnose 4E water-fill and 5E drain faults on these machines.",
     whyThisCombo:
       "Samsung washing machine repair is one of our highest-demand combinations in our home service base.",
     relatedProblemSlugs: ["washing-machine-not-draining", "washing-machine-not-spinning"],
@@ -82,7 +82,7 @@ export const combos: ComboPage[] = [
     serviceSlug: "microwave-repair",
     areaSlug: "faridabad",
     localIntro:
-      "Samsung microwave ovens in Faridabad kitchens are commonly brought in for no-heat and sparking faults — both need a trained technician rather than DIY repair.",
+      "Samsung microwave ovens in Faridabad kitchens are commonly brought in for no-heat and sparking faults - both need a trained technician rather than DIY repair.",
     whyThisCombo:
       "Samsung is a leading microwave brand in our Faridabad service base.",
     relatedProblemSlugs: ["microwave-not-heating", "microwave-sparking"],
@@ -104,7 +104,7 @@ export const combos: ComboPage[] = [
     serviceSlug: "refrigerator-repair",
     areaSlug: "south-delhi",
     localIntro:
-      "South Delhi homes, from Saket to Vasant Kunj, commonly own LG refrigerators — we cover cooling, compressor and freezer fan faults across the area.",
+      "South Delhi homes, from Saket to Vasant Kunj, commonly own LG refrigerators - we cover cooling, compressor and freezer fan faults across the area.",
     whyThisCombo:
       "South Delhi is a strong secondary market for LG refrigerator service.",
     relatedProblemSlugs: ["refrigerator-not-cooling"],
@@ -126,7 +126,7 @@ export const combos: ComboPage[] = [
     serviceSlug: "washing-machine-repair",
     areaSlug: "gurugram",
     localIntro:
-      "Gurugram societies frequently report LG washing machine drain and inlet faults — our technicians carry common LG spare parts to resolve these on the first visit where possible.",
+      "Gurugram societies frequently report LG washing machine drain and inlet faults - our technicians carry common LG spare parts to resolve these on the first visit where possible.",
     whyThisCombo:
       "LG washing machines are heavily used across Gurugram's residential towers.",
     relatedProblemSlugs: ["washing-machine-not-draining"],
@@ -159,7 +159,7 @@ export const combos: ComboPage[] = [
     serviceSlug: "washing-machine-repair",
     areaSlug: "faridabad",
     localIntro:
-      "IFB is primarily a washing machine brand in India, and it's one of our highest-volume brands in Faridabad — we regularly resolve E1 water-fill and E2 drain faults on IFB front-loaders.",
+      "IFB is primarily a washing machine brand in India, and it's one of our highest-volume brands in Faridabad - we regularly resolve E1 water-fill and E2 drain faults on IFB front-loaders.",
     whyThisCombo:
       "IFB's specialization in washing machines makes this our single highest-intent brand combination.",
     relatedProblemSlugs: ["washing-machine-not-draining", "washing-machine-leaking-water"],

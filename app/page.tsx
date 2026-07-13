@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CheckCircle2, Clock, ShieldCheck, Sparkles, Star, Wrench } from "lucide-react";
 import { AiAssistantOpenButton } from "@/components/ai/AiAssistantOpenButton";
 import { AnimatedSection } from "@/components/AnimatedSection";
+import { ContactLinks } from "@/components/ContactLinks";
 import { FAQList } from "@/components/FAQList";
 import { Gallery } from "@/components/Gallery";
 import { LeadForm } from "@/components/LeadForm";
@@ -44,14 +45,11 @@ export default function HomePage() {
               dishwashers and dryers with trained doorstep technicians, clear
               estimates and fast booking by call or WhatsApp.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href={site.phoneHref}>Call Now</ButtonLink>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               <ButtonLink href="/contact" variant="secondary">
                 Book Service
               </ButtonLink>
-              <ButtonLink href={site.whatsappHref} variant="ghost">
-                WhatsApp
-              </ButtonLink>
+              <ContactLinks source="hero" />
             </div>
             <div className="mt-8 grid max-w-2xl grid-cols-3 gap-3 text-sm font-semibold">
               <span className="flex items-center gap-2">
@@ -205,7 +203,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-2 max-w-xl text-sm leading-6 text-slate-600 dark:text-slate-300">
                 Our AI assistant is grounded on our own problem library and error
-                code database — it can help narrow down what&rsquo;s wrong and whether
+                code database - it can help narrow down what&rsquo;s wrong and whether
                 it&rsquo;s safe to check yourself, before you book a technician.
               </p>
             </div>
@@ -254,7 +252,7 @@ export default function HomePage() {
               Call now or book online. We will route your request to the nearest available technician.
             </p>
           </div>
-          <ButtonLink href={site.phoneHref}>Call {site.phonePrimary}</ButtonLink>
+          <ContactLinks source="bottom_cta" />
         </div>
       </section>
     </main>

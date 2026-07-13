@@ -78,7 +78,7 @@ export function LeadForm({
       onSubmit={handleSubmit(onSubmit)}
       className="grid gap-3 rounded-lg border border-slate-200 bg-white p-5 shadow-soft dark:border-slate-800 dark:bg-slate-950"
     >
-      {/* Honeypot — hidden from real users, bots that autofill every field trip it */}
+      {/* Honeypot - hidden from real users, bots that autofill every field trip it */}
       <div className="hidden" aria-hidden="true">
         <label>
           Company website

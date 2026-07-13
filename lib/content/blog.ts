@@ -48,7 +48,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Start with the tap — confirm it's turned fully open and that other taps in the house are getting normal pressure. Next, look at the inlet hose running from the wall to the back of the machine and straighten out any kinks. If you're comfortable doing it, you can unscrew the inlet hose connection and check the small mesh filter just inside the valve for grit or sediment build-up, which is a very common culprit in areas with harder water. If all of that looks fine and the machine still throws 4E, the water inlet valve itself may have failed electrically, which isn't a DIY fix.",
+        text: "Start with the tap - confirm it's turned fully open and that other taps in the house are getting normal pressure. Next, look at the inlet hose running from the wall to the back of the machine and straighten out any kinks. If you're comfortable doing it, you can unscrew the inlet hose connection and check the small mesh filter just inside the valve for grit or sediment build-up, which is a very common culprit in areas with harder water. If all of that looks fine and the machine still throws 4E, the water inlet valve itself may have failed electrically, which isn't a DIY fix.",
       },
       {
         type: "callout",
@@ -62,7 +62,7 @@ export const articles: Article[] = [
     category: "Error Codes",
     serviceSlug: "washing-machine-repair",
     excerpt:
-      "Samsung 5E is a drain error — the machine can't push water out within its expected time. Here's how to narrow down the cause before you call for help.",
+      "Samsung 5E is a drain error - the machine can't push water out within its expected time. Here's how to narrow down the cause before you call for help.",
     publishedAt: "2025-11-10",
     updatedAt: "2025-12-02",
     body: [
@@ -78,7 +78,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A blocked drain filter or pump — the single most common cause, usually from lint, coins, buttons or hair",
+          "A blocked drain filter or pump - the single most common cause, usually from lint, coins, buttons or hair",
           "A kinked or crushed drain hose behind or under the machine",
           "A drain pump motor that has failed electrically and simply isn't running",
         ],
@@ -90,7 +90,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "First, look at the drain hose running from the back of the machine to the wall or standpipe and make sure it isn't bent sharply or trapped under the unit. If your model has an accessible drain filter — usually a small hinged door near the bottom front — unplug the machine first, then open it carefully over a shallow tray, since residual water will run out. Clear any debris you find. Run a short rinse-and-spin cycle afterward to see if draining resumes normally.",
+        text: "First, look at the drain hose running from the back of the machine to the wall or standpipe and make sure it isn't bent sharply or trapped under the unit. If your model has an accessible drain filter - usually a small hinged door near the bottom front - unplug the machine first, then open it carefully over a shallow tray, since residual water will run out. Clear any debris you find. Run a short rinse-and-spin cycle afterward to see if draining resumes normally.",
       },
       {
         type: "heading",
@@ -113,7 +113,7 @@ export const articles: Article[] = [
     category: "Error Codes",
     serviceSlug: "washing-machine-repair",
     excerpt:
-      "UE on a Samsung washing machine usually just means an uneven load — but if it keeps coming back with a balanced wash, something else may be wrong.",
+      "UE on a Samsung washing machine usually just means an uneven load - but if it keeps coming back with a balanced wash, something else may be wrong.",
     publishedAt: "2025-11-17",
     updatedAt: "2025-11-17",
     body: [
@@ -130,7 +130,7 @@ export const articles: Article[] = [
         type: "list",
         items: [
           "Laundry has bunched to one side of the drum, especially with a small or mixed load",
-          "A single bulky item — a heavy towel, blanket or shoes — is spinning off-centre",
+          "A single bulky item - a heavy towel, blanket or shoes - is spinning off-centre",
           "The machine itself isn't sitting level on the floor",
         ],
       },
@@ -141,7 +141,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Open the door, manually spread the clothes evenly around the drum, and restart the spin cycle. If it's a single heavy item causing the imbalance, consider washing it with a couple of towels added for balance next time, or on its own with a lower spin speed. Also check that all four feet of the machine are making solid contact with the floor — a machine rocking slightly during spin will trigger UE far more often, even with a well-distributed load.",
+        text: "Open the door, manually spread the clothes evenly around the drum, and restart the spin cycle. If it's a single heavy item causing the imbalance, consider washing it with a couple of towels added for balance next time, or on its own with a lower spin speed. Also check that all four feet of the machine are making solid contact with the floor - a machine rocking slightly during spin will trigger UE far more often, even with a well-distributed load.",
       },
       {
         type: "heading",
@@ -170,7 +170,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Samsung refrigerators display a 22C (sometimes shown as 22E, depending on the model and display) when the defrost temperature sensor is reporting a reading the control board considers abnormal. Unlike some of the washing machine codes, this one isn't something you can diagnose by eye — it points to an internal sensor or control problem.",
+        text: "Samsung refrigerators display a 22C (sometimes shown as 22E, depending on the model and display) when the defrost temperature sensor is reporting a reading the control board considers abnormal. Unlike some of the washing machine codes, this one isn't something you can diagnose by eye - it points to an internal sensor or control problem.",
       },
       {
         type: "heading",
@@ -179,7 +179,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The defrost sensor monitors the temperature of the evaporator coil behind the interior back panel and tells the control board when it's time to run a defrost cycle to clear built-up frost. If the sensor's readings go out of expected range — because the sensor itself has failed, its wiring has come loose, or the control board is misreading the signal — the fridge can't manage its defrost cycles properly, which eventually affects cooling.",
+        text: "The defrost sensor monitors the temperature of the evaporator coil behind the interior back panel and tells the control board when it's time to run a defrost cycle to clear built-up frost. If the sensor's readings go out of expected range - because the sensor itself has failed, its wiring has come loose, or the control board is misreading the signal - the fridge can't manage its defrost cycles properly, which eventually affects cooling.",
       },
       {
         type: "heading",
@@ -201,11 +201,11 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The defrost sensor sits behind interior panels and is wired directly into the control board — accessing it means partially dismantling the fridge interior, and misdiagnosing a sensor fault versus a board fault can lead to replacing the wrong part. There are no safe DIY checks for this specific code beyond confirming the error persists after a power cycle.",
+        text: "The defrost sensor sits behind interior panels and is wired directly into the control board - accessing it means partially dismantling the fridge interior, and misdiagnosing a sensor fault versus a board fault can lead to replacing the wrong part. There are no safe DIY checks for this specific code beyond confirming the error persists after a power cycle.",
       },
       {
         type: "callout",
-        text: "If your Samsung fridge is showing 22C or 22E, avoid repeatedly resetting it and hoping it clears on its own — get a technician to test the sensor and wiring directly so you're not replacing parts by guesswork.",
+        text: "If your Samsung fridge is showing 22C or 22E, avoid repeatedly resetting it and hoping it clears on its own - get a technician to test the sensor and wiring directly so you're not replacing parts by guesswork.",
       },
     ],
   },
@@ -231,7 +231,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A clogged drain filter or pump impeller — commonly lint, coins or small fabric items",
+          "A clogged drain filter or pump impeller - commonly lint, coins or small fabric items",
           "A kinked drain hose, especially where it bends behind the machine or connects to the standpipe",
           "A drain pump that has stopped working electrically",
         ],
@@ -243,7 +243,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Most LG front-load machines have a drain filter behind a small access panel at the bottom-front of the machine. Unplug the machine, place towels down, and open the panel slowly — there will be residual water. Clear any debris from the filter and hose connection, then reseat everything firmly. Also check the hose running to the wall or standpipe for any sharp bends.",
+        text: "Most LG front-load machines have a drain filter behind a small access panel at the bottom-front of the machine. Unplug the machine, place towels down, and open the panel slowly - there will be residual water. Clear any debris from the filter and hose connection, then reseat everything firmly. Also check the hose running to the wall or standpipe for any sharp bends.",
       },
       {
         type: "heading",
@@ -256,7 +256,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "Leaving a machine sitting with stagnant water inside for days waiting it out isn't a great idea — it can lead to odour and mould in the drum. If clearing the filter doesn't resolve OE, get it looked at sooner rather than later.",
+        text: "Leaving a machine sitting with stagnant water inside for days waiting it out isn't a great idea - it can lead to odour and mould in the drum. If clearing the filter doesn't resolve OE, get it looked at sooner rather than later.",
       },
     ],
   },
@@ -272,7 +272,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "LG machines use UE for the same purpose as most other brands — it's a load-balance warning, not a fault code in the traditional sense. When the machine's sensors detect the laundry is too concentrated on one side to spin safely, it pauses the cycle before reaching full spin speed.",
+        text: "LG machines use UE for the same purpose as most other brands - it's a load-balance warning, not a fault code in the traditional sense. When the machine's sensors detect the laundry is too concentrated on one side to spin safely, it pauses the cycle before reaching full spin speed.",
       },
       {
         type: "heading",
@@ -294,7 +294,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Pause the machine, open the door, and rearrange the load so weight is spread around the drum rather than bunched on one side. Adding one or two extra items to a very small load can also help the machine balance itself out. Check that the machine stands flat on the floor — LG's front-load models are particularly sensitive to being slightly out of level.",
+        text: "Pause the machine, open the door, and rearrange the load so weight is spread around the drum rather than bunched on one side. Adding one or two extra items to a very small load can also help the machine balance itself out. Check that the machine stands flat on the floor - LG's front-load models are particularly sensitive to being slightly out of level.",
       },
       {
         type: "heading",
@@ -317,13 +317,13 @@ export const articles: Article[] = [
     category: "Error Codes",
     serviceSlug: "refrigerator-repair",
     excerpt:
-      "ER FF on an LG refrigerator points to a freezer fan fault — a common reason a fridge suddenly stops cooling properly.",
+      "ER FF on an LG refrigerator points to a freezer fan fault - a common reason a fridge suddenly stops cooling properly.",
     publishedAt: "2025-12-15",
     updatedAt: "2026-02-10",
     body: [
       {
         type: "paragraph",
-        text: "ER FF is LG's code for a freezer fan error. The freezer compartment fan circulates cold air both within the freezer and, on many models, down into the fridge section as well — so when this fan stops working correctly, cooling problems usually follow quickly, not just in the freezer but in the main compartment too.",
+        text: "ER FF is LG's code for a freezer fan error. The freezer compartment fan circulates cold air both within the freezer and, on many models, down into the fridge section as well - so when this fan stops working correctly, cooling problems usually follow quickly, not just in the freezer but in the main compartment too.",
       },
       {
         type: "heading",
@@ -345,7 +345,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Frost accumulation around the evaporator and fan area is usually a secondary symptom of another issue — a door not sealing fully, food packages blocking air vents, or the door being left open too long or too often. If the fan gets physically jammed by ice, it can throw ER FF even though the fan motor itself is fine.",
+        text: "Frost accumulation around the evaporator and fan area is usually a secondary symptom of another issue - a door not sealing fully, food packages blocking air vents, or the door being left open too long or too often. If the fan gets physically jammed by ice, it can throw ER FF even though the fan motor itself is fine.",
       },
       {
         type: "heading",
@@ -358,7 +358,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "If your LG fridge shows ER FF, don't keep loading it with fresh groceries expecting cooling to recover on its own — food safety is at stake. Get a technician to check the fan and clear any ice build-up properly.",
+        text: "If your LG fridge shows ER FF, don't keep loading it with fresh groceries expecting cooling to recover on its own - food safety is at stake. Get a technician to check the fan and clear any ice build-up properly.",
       },
     ],
   },
@@ -368,13 +368,13 @@ export const articles: Article[] = [
     category: "Error Codes",
     serviceSlug: "dishwasher-repair",
     excerpt:
-      "Bosch's E15 code is an Aquastop leak-sensor warning — water has been detected where it shouldn't be. Here's what to do the moment you see it.",
+      "Bosch's E15 code is an Aquastop leak-sensor warning - water has been detected where it shouldn't be. Here's what to do the moment you see it.",
     publishedAt: "2025-12-22",
     updatedAt: "2025-12-22",
     body: [
       {
         type: "paragraph",
-        text: "E15 is one of the more important codes a Bosch dishwasher can show. It means the Aquastop leak sensor at the base of the machine has detected water pooling in the base pan — somewhere it shouldn't be during normal operation. It's a protective code designed to stop the machine before a small leak becomes water damage to your kitchen floor.",
+        text: "E15 is one of the more important codes a Bosch dishwasher can show. It means the Aquastop leak sensor at the base of the machine has detected water pooling in the base pan - somewhere it shouldn't be during normal operation. It's a protective code designed to stop the machine before a small leak becomes water damage to your kitchen floor.",
       },
       {
         type: "heading",
@@ -405,7 +405,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Continuing to run the dishwasher while E15 keeps appearing risks the base pan overflowing onto your kitchen floor, which can damage flooring and cabinetry. Because the actual leak source — hose, valve, pump seal or sensor — is inside the base assembly, it needs a technician to open the unit and pinpoint exactly where the water is coming from.",
+        text: "Continuing to run the dishwasher while E15 keeps appearing risks the base pan overflowing onto your kitchen floor, which can damage flooring and cabinetry. Because the actual leak source - hose, valve, pump seal or sensor - is inside the base assembly, it needs a technician to open the unit and pinpoint exactly where the water is coming from.",
       },
       {
         type: "callout",
@@ -447,7 +447,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Remove and rinse the filter assembly at the bottom of the dishwasher tub — this is usually a twist-and-lift component and doesn't require tools. Food scraps and small debris here are a very common cause of drainage trouble. Then check under your sink where the drain hose connects to your plumbing or garbage disposal for any obvious kinks or pinch points.",
+        text: "Remove and rinse the filter assembly at the bottom of the dishwasher tub - this is usually a twist-and-lift component and doesn't require tools. Food scraps and small debris here are a very common cause of drainage trouble. Then check under your sink where the drain hose connects to your plumbing or garbage disposal for any obvious kinks or pinch points.",
       },
       {
         type: "heading",
@@ -456,7 +456,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "If the filter is clean and the hose under the sink looks fine but E24 persists, the drain pump itself is the likely fault — either jammed by a foreign object or electrically failed. That component sits inside the base of the unit and isn't accessible without partial disassembly.",
+        text: "If the filter is clean and the hose under the sink looks fine but E24 persists, the drain pump itself is the likely fault - either jammed by a foreign object or electrically failed. That component sits inside the base of the unit and isn't accessible without partial disassembly.",
       },
       {
         type: "callout",
@@ -476,7 +476,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "E1 on an IFB washing machine points to a water fill fault — the machine isn't sensing enough water coming in during the fill phase of the cycle. It's one of the more homeowner-friendly codes IFB machines display, since the root cause is very often outside the machine rather than inside it.",
+        text: "E1 on an IFB washing machine points to a water fill fault - the machine isn't sensing enough water coming in during the fill phase of the cycle. It's one of the more homeowner-friendly codes IFB machines display, since the root cause is very often outside the machine rather than inside it.",
       },
       {
         type: "heading",
@@ -498,7 +498,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Confirm the tap feeding the machine is turned on fully, not just partway. Check whether other taps in the house are also running with reduced pressure — if so, it's a supply-side issue that will resolve once pressure normalizes rather than a machine fault. Also inspect the inlet hose for kinks between the tap and the back of the machine.",
+        text: "Confirm the tap feeding the machine is turned on fully, not just partway. Check whether other taps in the house are also running with reduced pressure - if so, it's a supply-side issue that will resolve once pressure normalizes rather than a machine fault. Also inspect the inlet hose for kinks between the tap and the back of the machine.",
       },
       {
         type: "heading",
@@ -561,7 +561,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "If clearing the hose and any accessible filter doesn't resolve a recurring E2, don't keep restarting cycles hoping it clears — book an inspection so the pump can be tested properly.",
+        text: "If clearing the hose and any accessible filter doesn't resolve a recurring E2, don't keep restarting cycles hoping it clears - book an inspection so the pump can be tested properly.",
       },
     ],
   },
@@ -599,7 +599,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Unlike drain or fill errors, there's no external hose or filter to check for F06 — the fault lives in the motor and control electronics themselves. Opening the motor housing or control board requires disconnecting mains power safely and testing components with the right equipment, which is squarely technician territory.",
+        text: "Unlike drain or fill errors, there's no external hose or filter to check for F06 - the fault lives in the motor and control electronics themselves. Opening the motor housing or control board requires disconnecting mains power safely and testing components with the right equipment, which is squarely technician territory.",
       },
       {
         type: "heading",
@@ -612,7 +612,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "F06 is not a code to keep resetting and hoping clears on its own — repeated attempts to run the motor with a genuine fault can cause further damage. Get it looked at as soon as you can.",
+        text: "F06 is not a code to keep resetting and hoping clears on its own - repeated attempts to run the motor with a genuine fault can cause further damage. Get it looked at as soon as you can.",
       },
     ],
   },
@@ -641,7 +641,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Before assuming a major fault, check whether the freezer is cold but the fridge section isn't — that points to an airflow issue between compartments rather than a compressor failure. Also confirm the thermostat dial or digital setting hasn't been accidentally bumped to a warmer setting, which happens more often than people expect, especially in households with kids.",
+        text: "Before assuming a major fault, check whether the freezer is cold but the fridge section isn't - that points to an airflow issue between compartments rather than a compressor failure. Also confirm the thermostat dial or digital setting hasn't been accidentally bumped to a warmer setting, which happens more often than people expect, especially in households with kids.",
       },
       {
         type: "heading",
@@ -650,7 +650,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Close the door on a piece of paper at several points around the frame — if it slides out easily, the gasket isn't sealing properly. A worn or torn door gasket lets cold air escape continuously, so the compressor runs constantly without ever bringing the temperature down, which also drives up your electricity bill.",
+        text: "Close the door on a piece of paper at several points around the frame - if it slides out easily, the gasket isn't sealing properly. A worn or torn door gasket lets cold air escape continuously, so the compressor runs constantly without ever bringing the temperature down, which also drives up your electricity bill.",
       },
       {
         type: "heading",
@@ -672,7 +672,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "If you've checked the thermostat, door seal and coils and cooling still hasn't improved after a few hours, or you notice the compressor cycling on and off rapidly, clicking unusually, or a chemical smell near the back — stop there. Those signs point to a refrigerant leak or compressor fault, both of which need specialised tools to diagnose safely and aren't worth attempting yourself.",
+        text: "If you've checked the thermostat, door seal and coils and cooling still hasn't improved after a few hours, or you notice the compressor cycling on and off rapidly, clicking unusually, or a chemical smell near the back - stop there. Those signs point to a refrigerant leak or compressor fault, both of which need specialised tools to diagnose safely and aren't worth attempting yourself.",
       },
       {
         type: "callout",
@@ -701,7 +701,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Refrigerators generate condensation as part of normal operation and are designed to drain it away through a small channel at the back of the interior, down a tube, into a pan underneath the unit where it evaporates. A leak means something in that path has gone wrong — most often a blockage, sometimes a physical break.",
+        text: "Refrigerators generate condensation as part of normal operation and are designed to drain it away through a small channel at the back of the interior, down a tube, into a pan underneath the unit where it evaporates. A leak means something in that path has gone wrong - most often a blockage, sometimes a physical break.",
       },
       {
         type: "heading",
@@ -711,7 +711,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A blocked defrost drain — food debris or a build-up of ice can plug the small drain hole at the back interior wall, so melted frost backs up and overflows inside instead of draining away",
+          "A blocked defrost drain - food debris or a build-up of ice can plug the small drain hole at the back interior wall, so melted frost backs up and overflows inside instead of draining away",
           "A damaged or dislodged drain pan underneath the fridge, which can crack or slip out of position over time",
           "A worn door gasket letting in humid air, which condenses and adds to frost build-up that eventually melts and overflows",
         ],
@@ -723,7 +723,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Look at the back interior wall of the fridge for visible ice blocking the drain hole — this is the single most common cause and is often fixable just by clearing the ice with warm water and a turkey baster or similar. Confirm the fridge is standing level, since a tilt can cause water to pool in the wrong spot even with a working drain. Finally, check underneath the unit for a drain pan that has slipped out of place.",
+        text: "Look at the back interior wall of the fridge for visible ice blocking the drain hole - this is the single most common cause and is often fixable just by clearing the ice with warm water and a turkey baster or similar. Confirm the fridge is standing level, since a tilt can cause water to pool in the wrong spot even with a working drain. Finally, check underneath the unit for a drain pan that has slipped out of place.",
       },
       {
         type: "callout",
@@ -763,7 +763,7 @@ export const articles: Article[] = [
         type: "list",
         items: [
           "Unplug the machine before opening any access panel",
-          "Most models have a small filter door near the bottom front — open it slowly over a shallow tray, since residual water will run out",
+          "Most models have a small filter door near the bottom front - open it slowly over a shallow tray, since residual water will run out",
           "Clear out lint, coins, buttons or hair, which are the most common blockage culprits",
           "Reseat the filter firmly to avoid a new leak",
         ],
@@ -775,7 +775,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Check where the drain hose end sits relative to the standpipe or drain point — if it's positioned below the water level it drains into, it can cause siphoning, where water either drains too early or won't drain fully. The hose end should sit above the trap, not down inside it.",
+        text: "Check where the drain hose end sits relative to the standpipe or drain point - if it's positioned below the water level it drains into, it can cause siphoning, where water either drains too early or won't drain fully. The hose end should sit above the trap, not down inside it.",
       },
       {
         type: "heading",
@@ -784,7 +784,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "If the filter and hose are both clear and correctly positioned but the machine still won't drain, listen during the drain phase. A pump that hums but doesn't move water, or makes no sound at all, points to a failed or jammed drain pump — an internal component that needs a technician to access and test properly.",
+        text: "If the filter and hose are both clear and correctly positioned but the machine still won't drain, listen during the drain phase. A pump that hums but doesn't move water, or makes no sound at all, points to a failed or jammed drain pump - an internal component that needs a technician to access and test properly.",
       },
       {
         type: "callout",
@@ -813,7 +813,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Pay attention to which phase of the cycle the leak happens during — fill, wash, drain or spin. A leak during fill usually points to the inlet hose or connection. A leak specifically during spin often points to a worn tub seal or bearing. Drain-phase leaks usually mean the drain hose connection. Knowing this before a technician arrives also speeds up diagnosis considerably.",
+        text: "Pay attention to which phase of the cycle the leak happens during - fill, wash, drain or spin. A leak during fill usually points to the inlet hose or connection. A leak specifically during spin often points to a worn tub seal or bearing. Drain-phase leaks usually mean the drain hose connection. Knowing this before a technician arrives also speeds up diagnosis considerably.",
       },
       {
         type: "heading",
@@ -836,7 +836,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Tighten the inlet hose connections at both the tap and the back of the machine — these can loosen slightly over years of vibration. Run your hand around the door gasket feeling for tears or built-up detergent residue that's preventing a full seal. If you can identify the exact phase the leak happens in, you've already done most of the diagnostic work.",
+        text: "Tighten the inlet hose connections at both the tap and the back of the machine - these can loosen slightly over years of vibration. Run your hand around the door gasket feeling for tears or built-up detergent residue that's preventing a full seal. If you can identify the exact phase the leak happens in, you've already done most of the diagnostic work.",
       },
       {
         type: "heading",
@@ -845,7 +845,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A leak that happens specifically during spin, with everything else appearing normal, usually means the tub seal or bearing has worn out. This is an internal component behind the drum assembly and requires the machine to be partially disassembled — not something to attempt without the right experience.",
+        text: "A leak that happens specifically during spin, with everything else appearing normal, usually means the tub seal or bearing has worn out. This is an internal component behind the drum assembly and requires the machine to be partially disassembled - not something to attempt without the right experience.",
       },
       {
         type: "callout",
@@ -865,7 +865,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Seeing sparks or arcing inside a microwave is unsettling, and for good reason — it's one of the few appliance faults where the answer to 'can I keep using it' is almost always no, at least until you've ruled out the cause. Here's how to think through it safely.",
+        text: "Seeing sparks or arcing inside a microwave is unsettling, and for good reason - it's one of the few appliance faults where the answer to 'can I keep using it' is almost always no, at least until you've ruled out the cause. Here's how to think through it safely.",
       },
       {
         type: "heading",
@@ -874,7 +874,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The most common and easiest-to-fix cause of sparking is a metal object inside the microwave — a twist tie left on a bread bag, cutlery, aluminium foil, or even a plate with a decorative metallic rim. Metal reflects microwaves in a way that causes visible arcing. If you find something metal, remove it, wipe down the cavity, and the sparking may well have been a one-off.",
+        text: "The most common and easiest-to-fix cause of sparking is a metal object inside the microwave - a twist tie left on a bread bag, cutlery, aluminium foil, or even a plate with a decorative metallic rim. Metal reflects microwaves in a way that causes visible arcing. If you find something metal, remove it, wipe down the cavity, and the sparking may well have been a one-off.",
       },
       {
         type: "heading",
@@ -884,7 +884,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A damaged waveguide cover — the small mica or ceramic panel usually on the interior side wall — can expose metal components underneath that spark during operation",
+          "A damaged waveguide cover - the small mica or ceramic panel usually on the interior side wall - can expose metal components underneath that spark during operation",
           "Chipped or worn interior enamel can expose the metal cavity wall beneath the paint, which arcs when microwaves hit it directly",
           "Burn marks on the interior are usually a sign this has been happening gradually, not just once",
         ],
@@ -909,7 +909,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "Once you've ruled out metal inside the cavity, treat continued sparking as a stop-use situation and get it inspected — this isn't one to wait out.",
+        text: "Once you've ruled out metal inside the cavity, treat continued sparking as a stop-use situation and get it inspected - this isn't one to wait out.",
       },
     ],
   },
@@ -919,13 +919,13 @@ export const articles: Article[] = [
     category: "Microwave Repair",
     serviceSlug: "microwave-repair",
     excerpt:
-      "When the turntable spins and the light works but food stays cold, the fault is almost always internal — here's why this one isn't a DIY job.",
+      "When the turntable spins and the light works but food stays cold, the fault is almost always internal - here's why this one isn't a DIY job.",
     publishedAt: "2026-03-09",
     updatedAt: "2026-05-01",
     body: [
       {
         type: "paragraph",
-        text: "It's a strange but common scenario: the microwave display lights up, the turntable rotates, the interior light comes on — and the food comes out exactly as cold as it went in. Unlike a lot of appliance faults, this one has a fairly narrow set of causes, and none of them are things to open up yourself.",
+        text: "It's a strange but common scenario: the microwave display lights up, the turntable rotates, the interior light comes on - and the food comes out exactly as cold as it went in. Unlike a lot of appliance faults, this one has a fairly narrow set of causes, and none of them are things to open up yourself.",
       },
       {
         type: "heading",
@@ -934,7 +934,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The parts that make the display, turntable and light work are on a separate low-voltage circuit from the parts that actually generate heat. That's why a microwave can seem to run completely normally while producing zero heat — the high-voltage heating circuit has failed independently of everything else.",
+        text: "The parts that make the display, turntable and light work are on a separate low-voltage circuit from the parts that actually generate heat. That's why a microwave can seem to run completely normally while producing zero heat - the high-voltage heating circuit has failed independently of everything else.",
       },
       {
         type: "heading",
@@ -944,7 +944,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A faulty magnetron — the component that actually generates microwaves to heat food, and the most common single point of failure",
+          "A faulty magnetron - the component that actually generates microwaves to heat food, and the most common single point of failure",
           "A failed high-voltage diode or capacitor, both of which power the magnetron",
           "A worn or misaligned door safety switch, which can allow the microwave to run while blocking the high-voltage circuit from ever activating",
         ],
@@ -956,7 +956,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Confirm the no-heat symptom is real and consistent by microwaving a cup of water for about a minute — if it's still cold afterward, that rules out user error like an accidentally low power setting. Beyond that, there's no further DIY diagnosis to do.",
+        text: "Confirm the no-heat symptom is real and consistent by microwaving a cup of water for about a minute - if it's still cold afterward, that rules out user error like an accidentally low power setting. Beyond that, there's no further DIY diagnosis to do.",
       },
       {
         type: "heading",
@@ -969,7 +969,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "A no-heat microwave is never a DIY repair — book a technician who can safely test the magnetron, diode and door switches without opening up a live high-voltage component themselves.",
+        text: "A no-heat microwave is never a DIY repair - book a technician who can safely test the magnetron, diode and door switches without opening up a live high-voltage component themselves.",
       },
     ],
   },
@@ -979,13 +979,13 @@ export const articles: Article[] = [
     category: "Dishwasher Repair",
     serviceSlug: "dishwasher-repair",
     excerpt:
-      "Cloudy glasses and leftover food residue almost always trace back to spray arms, the filter, or detergent — here's how to work through each one.",
+      "Cloudy glasses and leftover food residue almost always trace back to spray arms, the filter, or detergent - here's how to work through each one.",
     publishedAt: "2026-03-16",
     updatedAt: "2026-03-16",
     body: [
       {
         type: "paragraph",
-        text: "A dishwasher that finishes its cycle but leaves dishes still dirty, cloudy or filmy is frustrating precisely because the machine seems to be running fine — it's just not cleaning. The good news is the usual causes are all things you can check without any tools.",
+        text: "A dishwasher that finishes its cycle but leaves dishes still dirty, cloudy or filmy is frustrating precisely because the machine seems to be running fine - it's just not cleaning. The good news is the usual causes are all things you can check without any tools.",
       },
       {
         type: "heading",
@@ -994,7 +994,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Take out the lower rack and spin the spray arms by hand — they should rotate freely. Check the small holes along each arm for mineral deposits or trapped food particles that block water flow. If water can't reach every part of the load evenly, some dishes will come out clean while others in the same wash don't.",
+        text: "Take out the lower rack and spin the spray arms by hand - they should rotate freely. Check the small holes along each arm for mineral deposits or trapped food particles that block water flow. If water can't reach every part of the load evenly, some dishes will come out clean while others in the same wash don't.",
       },
       {
         type: "heading",
@@ -1016,7 +1016,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Confirm the detergent tablet or powder is actually dissolving and dispensing during the cycle — large items placed against the dispenser door can physically block it from opening. Also check that your kitchen's hot water is reaching the dishwasher; running your tap until it's hot before starting a cycle helps on installations without a dedicated hot water line.",
+        text: "Confirm the detergent tablet or powder is actually dissolving and dispensing during the cycle - large items placed against the dispenser door can physically block it from opening. Also check that your kitchen's hot water is reaching the dishwasher; running your tap until it's hot before starting a cycle helps on installations without a dedicated hot water line.",
       },
       {
         type: "heading",
@@ -1025,7 +1025,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "If cleaning performance stays poor after clearing the spray arms and filter, or the detergent dispenser door isn't opening properly even with nothing blocking it, or an error code appears on the display, those point to an internal fault — a wash pump, dispenser mechanism or water inlet issue — that's worth a technician's diagnosis.",
+        text: "If cleaning performance stays poor after clearing the spray arms and filter, or the detergent dispenser door isn't opening properly even with nothing blocking it, or an error code appears on the display, those point to an internal fault - a wash pump, dispenser mechanism or water inlet issue - that's worth a technician's diagnosis.",
       },
       {
         type: "callout",
@@ -1039,7 +1039,7 @@ export const articles: Article[] = [
     category: "Dryer Repair",
     serviceSlug: "dryer-repair",
     excerpt:
-      "A dryer that tumbles but doesn't dry usually points to one of three heating components — here's what's safe to check and what isn't.",
+      "A dryer that tumbles but doesn't dry usually points to one of three heating components - here's what's safe to check and what isn't.",
     publishedAt: "2026-03-23",
     updatedAt: "2026-03-23",
     body: [
@@ -1064,7 +1064,7 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "A blown thermal fuse — a safety component that cuts heating power if the dryer overheats, often due to lint blockage, and needs full replacement rather than a reset",
+          "A blown thermal fuse - a safety component that cuts heating power if the dryer overheats, often due to lint blockage, and needs full replacement rather than a reset",
           "A burnt-out heating element, which lets the drum keep turning normally but stops producing any heat",
           "A stuck thermostat that fails to activate the heating circuit correctly",
         ],
@@ -1085,11 +1085,11 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A blocked exhaust vent isn't just a heating problem — it's also a fire risk over time, since trapped lint is highly flammable. If you've never checked your vent run for build-up, it's worth doing regularly regardless of whether you're having heating issues.",
+        text: "A blocked exhaust vent isn't just a heating problem - it's also a fire risk over time, since trapped lint is highly flammable. If you've never checked your vent run for build-up, it's worth doing regularly regardless of whether you're having heating issues.",
       },
       {
         type: "callout",
-        text: "If heating doesn't return after clearing lint and checking the vent, this is an electrical component fault — get a technician to test the thermal fuse, element and thermostat rather than opening the panel yourself.",
+        text: "If heating doesn't return after clearing lint and checking the vent, this is an electrical component fault - get a technician to test the thermal fuse, element and thermostat rather than opening the panel yourself.",
       },
     ],
   },
@@ -1118,7 +1118,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The most frequent complaint is cooling that drops off gradually rather than failing all at once — the fridge feels 'not quite cold enough' for a week or two before it becomes obviously warm. This pattern often points to a slow refrigerant leak or condenser coils that have built up dust over time, both of which are easier to address the earlier they're caught.",
+        text: "The most frequent complaint is cooling that drops off gradually rather than failing all at once - the fridge feels 'not quite cold enough' for a week or two before it becomes obviously warm. This pattern often points to a slow refrigerant leak or condenser coils that have built up dust over time, both of which are easier to address the earlier they're caught.",
       },
       {
         type: "heading",
@@ -1170,7 +1170,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "IFB front-load washing machines are a fixture in a large number of Faridabad homes, and the repair patterns we see locally tend to follow a fairly consistent set of causes — many of them related to water supply conditions specific to the area.",
+        text: "IFB front-load washing machines are a fixture in a large number of Faridabad homes, and the repair patterns we see locally tend to follow a fairly consistent set of causes - many of them related to water supply conditions specific to the area.",
       },
       {
         type: "heading",
@@ -1214,7 +1214,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "If your IFB machine is showing E1 or E2 repeatedly despite basic checks, book a doorstep inspection with 24x7 Appliance Repairs — a local technician will already be familiar with the typical causes in this area.",
+        text: "If your IFB machine is showing E1 or E2 repeatedly despite basic checks, book a doorstep inspection with 24x7 Appliance Repairs - a local technician will already be familiar with the typical causes in this area.",
       },
     ],
   },
@@ -1239,7 +1239,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "E15 is Bosch's leak-sensor code, triggered when water is detected in the base pan of the machine. It's a deliberately cautious code — the machine would rather stop and alert you than risk an undetected leak spreading across your kitchen floor. Ruling out detergent type (regular dish soap causes excess suds and can trigger this) is worth doing before assuming an internal leak.",
+        text: "E15 is Bosch's leak-sensor code, triggered when water is detected in the base pan of the machine. It's a deliberately cautious code - the machine would rather stop and alert you than risk an undetected leak spreading across your kitchen floor. Ruling out detergent type (regular dish soap causes excess suds and can trigger this) is worth doing before assuming an internal leak.",
       },
       {
         type: "heading",
@@ -1270,11 +1270,11 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Because of the Aquastop system, Bosch dishwashers are generally good at catching leaks before they become serious — but that also means E15 in particular shouldn't be worked around by simply resetting the machine. Any leak-related code deserves a proper inspection to find the actual source.",
+        text: "Because of the Aquastop system, Bosch dishwashers are generally good at catching leaks before they become serious - but that also means E15 in particular shouldn't be worked around by simply resetting the machine. Any leak-related code deserves a proper inspection to find the actual source.",
       },
       {
         type: "callout",
-        text: "If your Bosch dishwasher throws E15 more than once, don't keep resetting it — book an inspection so the actual leak source gets identified and fixed.",
+        text: "If your Bosch dishwasher throws E15 more than once, don't keep resetting it - book an inspection so the actual leak source gets identified and fixed.",
       },
     ],
   },
@@ -1299,7 +1299,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "OE (drain) and IE (fill) errors make up a large share of the service calls we get for LG machines, and the vast majority trace back to something outside the machine itself — a blocked filter, a kinked hose, or low household water pressure — rather than a genuine component failure.",
+        text: "OE (drain) and IE (fill) errors make up a large share of the service calls we get for LG machines, and the vast majority trace back to something outside the machine itself - a blocked filter, a kinked hose, or low household water pressure - rather than a genuine component failure.",
       },
       {
         type: "heading",
@@ -1308,7 +1308,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "LG's balance detection (the UE code) tends to be a bit more sensitive than some other brands, particularly if the machine isn't perfectly level. This isn't a fault so much as a design characteristic worth knowing about — a five-minute level check with a spirit level can eliminate a recurring annoyance.",
+        text: "LG's balance detection (the UE code) tends to be a bit more sensitive than some other brands, particularly if the machine isn't perfectly level. This isn't a fault so much as a design characteristic worth knowing about - a five-minute level check with a spirit level can eliminate a recurring annoyance.",
       },
       {
         type: "heading",
@@ -1359,7 +1359,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The F06 motor fault code is one of the more serious issues Whirlpool owners encounter — it points to the motor not responding correctly to control commands, whether from worn carbon brushes, a control board fault, or a wiring issue. Unlike drain or fill errors, there's no external check for this one; it needs a technician's diagnostic approach from the start.",
+        text: "The F06 motor fault code is one of the more serious issues Whirlpool owners encounter - it points to the motor not responding correctly to control commands, whether from worn carbon brushes, a control board fault, or a wiring issue. Unlike drain or fill errors, there's no external check for this one; it needs a technician's diagnostic approach from the start.",
       },
       {
         type: "heading",
@@ -1379,7 +1379,7 @@ export const articles: Article[] = [
         type: "list",
         items: [
           "The technician runs a quick test cycle to reproduce or confirm the reported fault",
-          "Accessible components — filters, hoses, belts — are checked first since they're the most common and least expensive causes",
+          "Accessible components - filters, hoses, belts - are checked first since they're the most common and least expensive causes",
           "If the issue is electrical (motor, control board), the technician tests those directly rather than guessing",
           "You'll get an estimate for parts and labour once the actual cause is confirmed",
         ],
@@ -1391,7 +1391,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The biggest factor in keeping a Whirlpool repair quick and affordable is catching issues early rather than continuing to run cycles once you notice a code or unusual sound — a small belt or brush wear issue left too long can put additional strain on the motor itself.",
+        text: "The biggest factor in keeping a Whirlpool repair quick and affordable is catching issues early rather than continuing to run cycles once you notice a code or unusual sound - a small belt or brush wear issue left too long can put additional strain on the motor itself.",
       },
       {
         type: "callout",
@@ -1420,7 +1420,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Many Haier and Hitachi models use inverter compressors, which run at variable speeds rather than simply switching on and off. This means they often sound different from older-style refrigerators — a low, continuous hum is normal rather than a sign of trouble. What is worth paying attention to is a compressor that seems to run constantly at high speed without ever bringing the temperature down, which suggests it's struggling against a separate issue like blocked coils or a door seal problem rather than a compressor fault itself.",
+        text: "Many Haier and Hitachi models use inverter compressors, which run at variable speeds rather than simply switching on and off. This means they often sound different from older-style refrigerators - a low, continuous hum is normal rather than a sign of trouble. What is worth paying attention to is a compressor that seems to run constantly at high speed without ever bringing the temperature down, which suggests it's struggling against a separate issue like blocked coils or a door seal problem rather than a compressor fault itself.",
       },
       {
         type: "heading",
@@ -1442,7 +1442,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Both brands' door gaskets are worth checking with a simple paper test if you notice cooling issues — slide a sheet of paper into the closed door at several points around the frame, and if it pulls out easily, the seal isn't tight enough. Also make sure the fridge has adequate clearance from the wall behind it for the condenser to release heat properly.",
+        text: "Both brands' door gaskets are worth checking with a simple paper test if you notice cooling issues - slide a sheet of paper into the closed door at several points around the frame, and if it pulls out easily, the seal isn't tight enough. Also make sure the fridge has adequate clearance from the wall behind it for the condenser to release heat properly.",
       },
       {
         type: "heading",
@@ -1451,7 +1451,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "If basic checks — door seal, vent clearance, coil dust — don't resolve a cooling complaint within a few hours of adjustment, it's time to bring in a technician rather than keep waiting, especially with food safety at stake.",
+        text: "If basic checks - door seal, vent clearance, coil dust - don't resolve a cooling complaint within a few hours of adjustment, it's time to bring in a technician rather than keep waiting, especially with food safety at stake.",
       },
       {
         type: "callout",
@@ -1475,7 +1475,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Most appliance breakdowns don't happen out of nowhere — they build up gradually from small things that go unchecked for months or years. This isn't a demanding maintenance plan; it's a realistic one, built around tasks that take a few minutes and genuinely extend the life of your appliances.",
+        text: "Most appliance breakdowns don't happen out of nowhere - they build up gradually from small things that go unchecked for months or years. This isn't a demanding maintenance plan; it's a realistic one, built around tasks that take a few minutes and genuinely extend the life of your appliances.",
       },
       {
         type: "heading",
@@ -1510,7 +1510,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Beyond the routine tasks, pay attention to changes — a fridge that seems to be running longer than usual, a washing machine that's gotten noticeably louder, a dishwasher leaving more residue than it used to. These early signals are usually cheaper and easier to act on than waiting for a full breakdown.",
+        text: "Beyond the routine tasks, pay attention to changes - a fridge that seems to be running longer than usual, a washing machine that's gotten noticeably louder, a dishwasher leaving more residue than it used to. These early signals are usually cheaper and easier to act on than waiting for a full breakdown.",
       },
       {
         type: "heading",
@@ -1519,7 +1519,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A blocked drain filter or dusty condenser coil doesn't just risk eventual breakdown — it also means the appliance works harder than it needs to, which shows up as a higher electricity bill over time. Basic upkeep isn't just about avoiding repairs, it's about efficiency too.",
+        text: "A blocked drain filter or dusty condenser coil doesn't just risk eventual breakdown - it also means the appliance works harder than it needs to, which shows up as a higher electricity bill over time. Basic upkeep isn't just about avoiding repairs, it's about efficiency too.",
       },
       {
         type: "callout",
@@ -1539,7 +1539,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "One of the most common questions homeowners ask when an appliance breaks down isn't 'what's wrong' — it's 'is this even worth fixing.' There's no single rule that applies to every situation, but there is a practical way to think it through.",
+        text: "One of the most common questions homeowners ask when an appliance breaks down isn't 'what's wrong' - it's 'is this even worth fixing.' There's no single rule that applies to every situation, but there is a practical way to think it through.",
       },
       {
         type: "heading",
@@ -1548,7 +1548,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A washing machine or refrigerator in its first eight to ten years is usually worth repairing almost regardless of the fault, since major components generally still have a lot of useful life left. Beyond that range, the calculation starts to depend more on which specific part has failed than on age alone — a door gasket replacement makes sense at any age, while a compressor or motor replacement is worth weighing more carefully on an older unit.",
+        text: "A washing machine or refrigerator in its first eight to ten years is usually worth repairing almost regardless of the fault, since major components generally still have a lot of useful life left. Beyond that range, the calculation starts to depend more on which specific part has failed than on age alone - a door gasket replacement makes sense at any age, while a compressor or motor replacement is worth weighing more carefully on an older unit.",
       },
       {
         type: "heading",
@@ -1560,7 +1560,7 @@ export const articles: Article[] = [
         items: [
           "Whether the fault is a component-level repair (belt, gasket, sensor) or a core system failure (compressor, motor, control board)",
           "Whether the appliance has had repeated unrelated faults recently, which can suggest broader wear rather than a one-off issue",
-          "How well the appliance has otherwise performed — a unit that's been reliable for years is a different case than one that's had ongoing trouble",
+          "How well the appliance has otherwise performed - a unit that's been reliable for years is a different case than one that's had ongoing trouble",
         ],
       },
       {
@@ -1599,7 +1599,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Same-day appliance repair is one of those things that's easy to promise and harder to explain clearly — what does it actually involve, and what should you expect once you've booked a slot? Here's a realistic breakdown.",
+        text: "Same-day appliance repair is one of those things that's easy to promise and harder to explain clearly - what does it actually involve, and what should you expect once you've booked a slot? Here's a realistic breakdown.",
       },
       {
         type: "heading",
@@ -1608,7 +1608,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "It helps to describe the fault as specifically as you can when booking — what the appliance is doing (or not doing), any error codes shown on the display, and roughly when the issue started. This lets the technician arrive better prepared for the likely cause, which speeds up the actual visit.",
+        text: "It helps to describe the fault as specifically as you can when booking - what the appliance is doing (or not doing), any error codes shown on the display, and roughly when the issue started. This lets the technician arrive better prepared for the likely cause, which speeds up the actual visit.",
       },
       {
         type: "heading",
@@ -1631,7 +1631,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Not every fault can be fixed in a single visit, and that's usually down to parts availability rather than technician capability — a specific control board or motor for a particular model isn't always something every technician carries on hand for every brand. This is more common with less frequently repaired appliances or older models.",
+        text: "Not every fault can be fixed in a single visit, and that's usually down to parts availability rather than technician capability - a specific control board or motor for a particular model isn't always something every technician carries on hand for every brand. This is more common with less frequently repaired appliances or older models.",
       },
       {
         type: "heading",
@@ -1640,7 +1640,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Same-day service means a technician will get to your appliance and diagnose it the same day in the large majority of cases — it doesn't guarantee every possible fault is fixed within hours of your call, since some repairs genuinely depend on parts. A good technician will always tell you clearly which category your repair falls into rather than leaving you guessing.",
+        text: "Same-day service means a technician will get to your appliance and diagnose it the same day in the large majority of cases - it doesn't guarantee every possible fault is fixed within hours of your call, since some repairs genuinely depend on parts. A good technician will always tell you clearly which category your repair falls into rather than leaving you guessing.",
       },
       {
         type: "callout",
@@ -1661,7 +1661,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Faridabad's mix of older established colonies and newer residential developments means appliance repair needs here vary more than you'd expect — older buildings often have different electrical and plumbing quirks that affect appliances differently than newer construction.",
+        text: "Faridabad's mix of older established colonies and newer residential developments means appliance repair needs here vary more than you'd expect - older buildings often have different electrical and plumbing quirks that affect appliances differently than newer construction.",
       },
       {
         type: "heading",
@@ -1681,7 +1681,7 @@ export const articles: Article[] = [
         type: "list",
         items: [
           "Describe the appliance, the specific fault, and any error code shown when you book",
-          "Have easy access ready to the appliance — a fridge or dishwasher pulled slightly from the wall speeds up inspection",
+          "Have easy access ready to the appliance - a fridge or dishwasher pulled slightly from the wall speeds up inspection",
           "Ask about the estimate before any repair work begins so there are no surprises",
         ],
       },
@@ -1705,7 +1705,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "If you're in Faridabad and dealing with a recurring appliance fault, book a doorstep inspection rather than repeatedly working around the symptom — a technician can tell you quickly whether it's a local supply issue or a genuine component fault.",
+        text: "If you're in Faridabad and dealing with a recurring appliance fault, book a doorstep inspection rather than repeatedly working around the symptom - a technician can tell you quickly whether it's a local supply issue or a genuine component fault.",
       },
     ],
   },
@@ -1730,7 +1730,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A generic or poorly matched component — a water inlet valve, a door gasket, a control board — might fit and work initially, but it can wear out faster, fit less precisely, or interact poorly with other parts of the machine's system. This is especially true for components tied closely to a manufacturer's specific design, like door locks and electronic control boards.",
+        text: "A generic or poorly matched component - a water inlet valve, a door gasket, a control board - might fit and work initially, but it can wear out faster, fit less precisely, or interact poorly with other parts of the machine's system. This is especially true for components tied closely to a manufacturer's specific design, like door locks and electronic control boards.",
       },
       {
         type: "heading",
@@ -1740,9 +1740,9 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "Door gaskets and seals — a poor fit means an incomplete seal, leading straight back to the same cooling or leaking problem",
-          "Control boards and electronic components — compatibility issues here can cause intermittent faults that are hard to trace back",
-          "Drain and inlet valves — precision matters for consistent fill and drain timing that avoids new error codes",
+          "Door gaskets and seals - a poor fit means an incomplete seal, leading straight back to the same cooling or leaking problem",
+          "Control boards and electronic components - compatibility issues here can cause intermittent faults that are hard to trace back",
+          "Drain and inlet valves - precision matters for consistent fill and drain timing that avoids new error codes",
         ],
       },
       {
@@ -1765,7 +1765,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "Ask your technician about the part being used before a repair begins — the estimate they share should reflect the part quality, so you know exactly what you're getting.",
+        text: "Ask your technician about the part being used before a repair begins - the estimate they share should reflect the part quality, so you know exactly what you're getting.",
       },
     ],
   },
@@ -1776,13 +1776,13 @@ export const articles: Article[] = [
     serviceSlug: "washing-machine-repair",
     areaSlug: "noida",
     excerpt:
-      "What Noida homeowners typically want to know before booking a repair — how estimates work, what affects timing, and how to prepare for a visit.",
+      "What Noida homeowners typically want to know before booking a repair - how estimates work, what affects timing, and how to prepare for a visit.",
     publishedAt: "2026-06-15",
     updatedAt: "2026-07-05",
     body: [
       {
         type: "paragraph",
-        text: "Noida's mix of high-rise apartment complexes and independent houses means appliance repair logistics can look a little different depending on where you live — something worth knowing before you book a technician.",
+        text: "Noida's mix of high-rise apartment complexes and independent houses means appliance repair logistics can look a little different depending on where you live - something worth knowing before you book a technician.",
       },
       {
         type: "heading",
@@ -1791,7 +1791,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "There's no way to give an accurate cost over the phone before an appliance has actually been inspected — too much depends on which specific part has failed. What you should expect is a technician who inspects the fault first, explains clearly what's wrong, and shares an estimate before any repair work begins, so you can decide whether to proceed.",
+        text: "There's no way to give an accurate cost over the phone before an appliance has actually been inspected - too much depends on which specific part has failed. What you should expect is a technician who inspects the fault first, explains clearly what's wrong, and shares an estimate before any repair work begins, so you can decide whether to proceed.",
       },
       {
         type: "heading",
@@ -1826,7 +1826,7 @@ export const articles: Article[] = [
       },
       {
         type: "callout",
-        text: "If you're in Noida and dealing with an appliance fault, book a doorstep inspection and have your building's entry process ready — it's the biggest factor in how quickly a technician can actually reach your door.",
+        text: "If you're in Noida and dealing with an appliance fault, book a doorstep inspection and have your building's entry process ready - it's the biggest factor in how quickly a technician can actually reach your door.",
       },
     ],
   },
@@ -1843,7 +1843,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Gurugram's residential mix — dense high-rise societies alongside independent floors and older colonies — means washing machine repair needs vary a fair amount depending on where in the city you live.",
+        text: "Gurugram's residential mix - dense high-rise societies alongside independent floors and older colonies - means washing machine repair needs vary a fair amount depending on where in the city you live.",
       },
       {
         type: "heading",
@@ -1883,11 +1883,11 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A technician covering Gurugram will typically ask about your society's entry process when you book, inspect the machine on arrival, and share a clear estimate once the fault is identified — whether that's a supply-related issue or a genuine component repair.",
+        text: "A technician covering Gurugram will typically ask about your society's entry process when you book, inspect the machine on arrival, and share a clear estimate once the fault is identified - whether that's a supply-related issue or a genuine component repair.",
       },
       {
         type: "callout",
-        text: "If your washing machine's fill issues seem tied to time of day, mention that when booking — it helps the technician quickly tell a supply-pressure issue apart from an inlet valve fault.",
+        text: "If your washing machine's fill issues seem tied to time of day, mention that when booking - it helps the technician quickly tell a supply-pressure issue apart from an inlet valve fault.",
       },
     ],
   },
@@ -1904,7 +1904,7 @@ export const articles: Article[] = [
     body: [
       {
         type: "paragraph",
-        text: "Ghaziabad's residential areas range from established colonies to newer developments along the outskirts, and refrigerator repair patterns here tend to reflect that mix — older wiring in some areas, newer high-efficiency units in others.",
+        text: "Ghaziabad's residential areas range from established colonies to newer developments along the outskirts, and refrigerator repair patterns here tend to reflect that mix - older wiring in some areas, newer high-efficiency units in others.",
       },
       {
         type: "heading",
@@ -1935,7 +1935,7 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "Whether you're in an independent house or an apartment complex, having clear access to the back of the refrigerator ready — pulled slightly from the wall if possible — helps a technician inspect the coils and compressor area more quickly during the visit.",
+        text: "Whether you're in an independent house or an apartment complex, having clear access to the back of the refrigerator ready - pulled slightly from the wall if possible - helps a technician inspect the coils and compressor area more quickly during the visit.",
       },
       {
         type: "heading",
@@ -1944,11 +1944,11 @@ export const articles: Article[] = [
       },
       {
         type: "paragraph",
-        text: "A technician should inspect the fridge, explain what's actually wrong in plain terms, and share an estimate before starting any repair work — this is worth confirming when you book, regardless of which part of Ghaziabad you're in.",
+        text: "A technician should inspect the fridge, explain what's actually wrong in plain terms, and share an estimate before starting any repair work - this is worth confirming when you book, regardless of which part of Ghaziabad you're in.",
       },
       {
         type: "callout",
-        text: "If your fridge in Ghaziabad has had recurring cooling or electrical issues, book an inspection and ask specifically about voltage-related strain — it's a common local factor worth ruling in or out early.",
+        text: "If your fridge in Ghaziabad has had recurring cooling or electrical issues, book an inspection and ask specifically about voltage-related strain - it's a common local factor worth ruling in or out early.",
       },
     ],
   },

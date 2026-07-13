@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { ContactLinks } from "@/components/ContactLinks";
 import { FAQList } from "@/components/FAQList";
 import { LeadForm } from "@/components/LeadForm";
-import { ButtonLink, Section } from "@/components/ui";
+import { Section } from "@/components/ui";
 import { areas, brands, getErrorCodesByService, getProblemsByService, services } from "@/lib/content";
 import { site } from "@/lib/site";
 
@@ -163,11 +164,8 @@ export function ServiceContent({
 
       <Section eyebrow="People also ask" title={`${service.name} FAQs`}>
         <FAQList items={serviceFaqs} />
-        <div className="mt-8 flex gap-3">
-          <ButtonLink href={site.phoneHref}>Call Now</ButtonLink>
-          <ButtonLink href={site.whatsappHref} variant="secondary">
-            WhatsApp
-          </ButtonLink>
+        <div className="mt-8">
+          <ContactLinks source="service_page" />
         </div>
       </Section>
     </>

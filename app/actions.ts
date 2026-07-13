@@ -26,7 +26,7 @@ export async function submitLead(input: unknown) {
   }
   const lead = parsed.data;
   if (lead.companyWebsite) {
-    // Honeypot tripped — report success to the bot without sending anything.
+    // Honeypot tripped - report success to the bot without sending anything.
     return { ok: true, message: "Thanks. Your booking request has been sent." };
   }
 

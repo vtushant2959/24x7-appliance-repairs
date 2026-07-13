@@ -7,7 +7,7 @@ export const errorCodes: ErrorCode[] = [
     code: "4E",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Water fill error — the machine isn't detecting enough water inflow within the expected time.",
+    meaning: "Water fill error - the machine isn't detecting enough water inflow within the expected time.",
     severity: "Safe to check yourself",
     likelyCauses: [
       "Water tap not fully open or water supply cut off",
@@ -28,7 +28,7 @@ export const errorCodes: ErrorCode[] = [
     code: "5E",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Drain error — the machine can't drain water within the expected time.",
+    meaning: "Drain error - the machine can't drain water within the expected time.",
     severity: "Call a technician",
     likelyCauses: [
       "Blocked drain filter or pump",
@@ -47,7 +47,7 @@ export const errorCodes: ErrorCode[] = [
     code: "UE",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Unbalanced load — the machine has stopped the spin cycle to protect the motor and bearings.",
+    meaning: "Unbalanced load - the machine has stopped the spin cycle to protect the motor and bearings.",
     severity: "Safe to check yourself",
     likelyCauses: [
       "Load bunched to one side of the drum",
@@ -67,7 +67,7 @@ export const errorCodes: ErrorCode[] = [
     code: "22 C / 22 E",
     applianceCategory: "refrigerator",
     serviceSlug: "refrigerator-repair",
-    meaning: "Defrost sensor fault — the refrigerator's defrost temperature sensor is reporting an abnormal reading.",
+    meaning: "Defrost sensor fault - the refrigerator's defrost temperature sensor is reporting an abnormal reading.",
     severity: "Call a technician",
     likelyCauses: [
       "Faulty defrost sensor",
@@ -83,7 +83,7 @@ export const errorCodes: ErrorCode[] = [
     code: "OE",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Drain error — LG's code for a failure to drain water within the expected time.",
+    meaning: "Drain error - LG's code for a failure to drain water within the expected time.",
     severity: "Call a technician",
     likelyCauses: [
       "Blocked drain filter or pump",
@@ -102,7 +102,7 @@ export const errorCodes: ErrorCode[] = [
     code: "IE",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Water inlet error — the machine isn't filling with water within the expected time.",
+    meaning: "Water inlet error - the machine isn't filling with water within the expected time.",
     severity: "Safe to check yourself",
     likelyCauses: [
       "Water tap not fully open",
@@ -121,7 +121,7 @@ export const errorCodes: ErrorCode[] = [
     code: "FE",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Overflow error — the machine has detected excess water in the tub.",
+    meaning: "Overflow error - the machine has detected excess water in the tub.",
     severity: "Call a technician",
     likelyCauses: [
       "Faulty water level sensor",
@@ -137,7 +137,7 @@ export const errorCodes: ErrorCode[] = [
     code: "UE",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Unbalanced load — the machine has paused the spin cycle to protect the motor and bearings.",
+    meaning: "Unbalanced load - the machine has paused the spin cycle to protect the motor and bearings.",
     severity: "Safe to check yourself",
     likelyCauses: [
       "Load bunched to one side of the drum",
@@ -155,7 +155,7 @@ export const errorCodes: ErrorCode[] = [
     code: "ER FF",
     applianceCategory: "refrigerator",
     serviceSlug: "refrigerator-repair",
-    meaning: "Freezer fan error — the freezer compartment fan isn't operating correctly.",
+    meaning: "Freezer fan error - the freezer compartment fan isn't operating correctly.",
     severity: "Call a technician",
     likelyCauses: [
       "Ice build-up obstructing the fan blades",
@@ -171,7 +171,7 @@ export const errorCodes: ErrorCode[] = [
     code: "E15",
     applianceCategory: "dishwasher",
     serviceSlug: "dishwasher-repair",
-    meaning: "Aquastop leak-sensor error — water has been detected in the base pan of the dishwasher.",
+    meaning: "Aquastop leak-sensor error - water has been detected in the base pan of the dishwasher.",
     severity: "Call a technician",
     likelyCauses: [
       "Internal leak from a hose, valve or pump seal",
@@ -190,7 +190,7 @@ export const errorCodes: ErrorCode[] = [
     code: "E24",
     applianceCategory: "dishwasher",
     serviceSlug: "dishwasher-repair",
-    meaning: "Drain error — the dishwasher isn't draining water correctly.",
+    meaning: "Drain error - the dishwasher isn't draining water correctly.",
     severity: "Call a technician",
     likelyCauses: [
       "Blocked drain hose or filter",
@@ -209,7 +209,7 @@ export const errorCodes: ErrorCode[] = [
     code: "E1",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Water fill fault — the machine isn't detecting sufficient water inflow.",
+    meaning: "Water fill fault - the machine isn't detecting sufficient water inflow.",
     severity: "Safe to check yourself",
     likelyCauses: [
       "Water tap not fully open",
@@ -228,7 +228,7 @@ export const errorCodes: ErrorCode[] = [
     code: "E2",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Drain fault — the machine isn't draining water within the expected time.",
+    meaning: "Drain fault - the machine isn't draining water within the expected time.",
     severity: "Call a technician",
     likelyCauses: [
       "Blocked drain filter or pump",
@@ -245,7 +245,7 @@ export const errorCodes: ErrorCode[] = [
     code: "F06",
     applianceCategory: "washing machine",
     serviceSlug: "washing-machine-repair",
-    meaning: "Motor fault — a common Whirlpool code indicating the motor isn't responding correctly to control commands.",
+    meaning: "Motor fault - a common Whirlpool code indicating the motor isn't responding correctly to control commands.",
     severity: "Call a technician",
     likelyCauses: [
       "Worn motor carbon brushes",

@@ -27,7 +27,7 @@ export async function generateMetadata({
   if (!problem) return {};
   return pageMetadata({
     title: `${problem.name}: Causes, Checks and When to Call a Technician`,
-    description: `${problem.name} — likely causes, safe checks you can do yourself, and when to book a professional repair.`,
+    description: `${problem.name} - likely causes, safe checks you can do yourself, and when to book a professional repair.`,
     path: `/problems/${problem.slug}`,
   });
 }

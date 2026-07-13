@@ -60,7 +60,7 @@ export default async function ErrorCodePage({
         <div className="container-page">
           <p className="font-bold text-brand-blue">Error Code Knowledge Base</p>
           <h1 className="mt-3 max-w-4xl text-4xl font-black text-brand-navy dark:text-white">
-            {brand?.name} {code.code} — {code.applianceCategory}
+            {brand?.name} {code.code} - {code.applianceCategory}
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700 dark:text-slate-300">
             {code.meaning}
@@ -85,13 +85,13 @@ export default async function ErrorCodePage({
           </ul>
           <CalloutBox tone="info">
             If the error continues after these checks, book a technician
-            rather than repeating the cycle — it risks further damage.
+            rather than repeating the cycle - it risks further damage.
           </CalloutBox>
         </Section>
       ) : (
         <Section eyebrow="Safety" title="This needs a technician">
           <CalloutBox tone="warn">
-            {code.severity} — this fault involves internal electrical or
+            {code.severity} - this fault involves internal electrical or
             mechanical components that aren&rsquo;t safe to inspect yourself. Book a
             technician for a proper diagnosis.
           </CalloutBox>

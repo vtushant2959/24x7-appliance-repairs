@@ -12,7 +12,7 @@ export function ChatWidget({ onClose }: { onClose: () => void }) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
-      content: `Hi! I'm the ${site.name} repair assistant. Describe your appliance problem — brand, appliance and what's happening — and I'll help you figure out what's likely wrong.`,
+      content: `Hi! I'm the ${site.name} repair assistant. Describe your appliance problem - brand, appliance and what's happening - and I'll help you figure out what's likely wrong.`,
     },
   ]);
   const [input, setInput] = useState("");

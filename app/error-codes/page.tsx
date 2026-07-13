@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Appliance Error Code Lookup",
   description:
-    "Look up Samsung, LG, IFB, Bosch, Whirlpool, Haier and Hitachi appliance error codes — what they mean, likely causes and whether it's safe to check yourself.",
+    "Look up Samsung, LG, IFB, Bosch, Whirlpool, Haier and Hitachi appliance error codes - what they mean, likely causes and whether it's safe to check yourself.",
 });
 
 export default function ErrorCodesPage() {

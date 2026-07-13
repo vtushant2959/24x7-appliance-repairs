@@ -45,7 +45,7 @@ export const faqs: CategorizedFaq[] = [
     category: "general",
     question: "Do I need to bring my appliance anywhere?",
     answer:
-      "No. All repairs are doorstep — a technician visits your home or office to inspect and repair the appliance on-site wherever possible.",
+      "No. All repairs are doorstep - a technician visits your home or office to inspect and repair the appliance on-site wherever possible.",
   },
   {
     category: "general",
@@ -58,7 +58,7 @@ export const faqs: CategorizedFaq[] = [
     category: "pricing",
     question: "How much does appliance repair cost?",
     answer:
-      "Cost depends on the appliance, fault and spare part required. The technician inspects the appliance first and shares a clear estimate before any repair work begins — you approve the cost, there are no surprise charges.",
+      "Cost depends on the appliance, fault and spare part required. The technician inspects the appliance first and shares a clear estimate before any repair work begins - you approve the cost, there are no surprise charges.",
   },
   {
     category: "pricing",
@@ -89,7 +89,7 @@ export const faqs: CategorizedFaq[] = [
     category: "booking",
     question: "How do I book a repair?",
     answer:
-      "Call, WhatsApp, or fill in the booking form on this website with your appliance, brand, area and preferred time — we confirm the visit and dispatch the nearest technician.",
+      "Call, WhatsApp, or fill in the booking form on this website with your appliance, brand, area and preferred time - we confirm the visit and dispatch the nearest technician.",
   },
   {
     category: "booking",
@@ -101,7 +101,7 @@ export const faqs: CategorizedFaq[] = [
     category: "booking",
     question: "Do you offer emergency repair outside normal hours?",
     answer:
-      "For urgent faults like leaks or electrical smell, call or WhatsApp directly and mention it's an emergency — we prioritise these requests where a technician is available.",
+      "For urgent faults like leaks or electrical smell, call or WhatsApp directly and mention it's an emergency - we prioritise these requests where a technician is available.",
   },
   {
     category: "booking",
@@ -143,7 +143,7 @@ export const faqs: CategorizedFaq[] = [
     serviceSlug: "microwave-repair",
     question: "Is it safe to use my microwave if it's sparking?",
     answer:
-      "No. Stop using it immediately — sparking usually means a damaged waveguide cover, metal contact inside, or a faulting magnetron, and continued use can damage the appliance further or pose a safety risk.",
+      "No. Stop using it immediately - sparking usually means a damaged waveguide cover, metal contact inside, or a faulting magnetron, and continued use can damage the appliance further or pose a safety risk.",
   },
   {
     category: "service",
@@ -164,7 +164,7 @@ export const faqs: CategorizedFaq[] = [
     serviceSlug: "dishwasher-repair",
     question: "How much does dishwasher repair cost?",
     answer:
-      "Cost varies by fault — drain cleaning, inlet valve replacement, motor work and PCB repair are priced differently after inspection.",
+      "Cost varies by fault - drain cleaning, inlet valve replacement, motor work and PCB repair are priced differently after inspection.",
   },
   {
     category: "service",
@@ -178,7 +178,7 @@ export const faqs: CategorizedFaq[] = [
     serviceSlug: "dryer-repair",
     question: "Is a burning smell from my dryer dangerous?",
     answer:
-      "Yes — stop using the dryer immediately and unplug it. A burning smell can indicate lint build-up near the heating element or a wiring fault, both of which are fire risks.",
+      "Yes - stop using the dryer immediately and unplug it. A burning smell can indicate lint build-up near the heating element or a wiring fault, both of which are fire risks.",
   },
   // Brand-specific
   {
@@ -200,7 +200,7 @@ export const faqs: CategorizedFaq[] = [
     brandSlug: "ifb",
     question: "Do you specialise in IFB washing machines?",
     answer:
-      "Yes, IFB is one of our highest-volume brands — we regularly handle drum, drain, PCB and door lock faults on IFB front-load machines.",
+      "Yes, IFB is one of our highest-volume brands - we regularly handle drum, drain, PCB and door lock faults on IFB front-load machines.",
   },
   {
     category: "brand",
@@ -228,7 +228,7 @@ export const faqs: CategorizedFaq[] = [
     brandSlug: "hitachi",
     question: "Why is my Hitachi refrigerator not cooling?",
     answer:
-      "Hitachi refrigerators are known for their inverter compressors — a cooling drop is often a compressor, gas or inverter PCB fault, best confirmed by inspection.",
+      "Hitachi refrigerators are known for their inverter compressors - a cooling drop is often a compressor, gas or inverter PCB fault, best confirmed by inspection.",
   },
   // Area-specific
   {

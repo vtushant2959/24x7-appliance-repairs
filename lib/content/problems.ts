@@ -76,7 +76,7 @@ export const problems: Problem[] = [
     ],
     diySafetyChecks: [
       "Check for visible ice blocking the drain hole at the back interior wall",
-      "Confirm the fridge is level — an unlevel fridge can cause water to pool incorrectly",
+      "Confirm the fridge is level - an unlevel fridge can cause water to pool incorrectly",
       "Look under the fridge for a dislodged drain pan",
     ],
     whenToCallAPro: [
@@ -154,7 +154,7 @@ export const problems: Problem[] = [
     ],
     diySafetyChecks: [
       "Check the drain hose behind the machine isn't kinked or pinched",
-      "If your model has an accessible filter (usually a small door at the front-bottom), check it for debris — unplug the machine first",
+      "If your model has an accessible filter (usually a small door at the front-bottom), check it for debris - unplug the machine first",
       "Confirm the drain hose end isn't sitting below the water level of the standpipe, causing siphoning",
     ],
     whenToCallAPro: [
@@ -198,7 +198,7 @@ export const problems: Problem[] = [
     ],
     diySafetyChecks: [
       "Redistribute the load evenly and restart the spin cycle",
-      "Reduce load size — overloading can also trigger a spin cut-off",
+      "Reduce load size - overloading can also trigger a spin cut-off",
       "Check the door is closing and latching fully",
     ],
     whenToCallAPro: [
@@ -243,7 +243,7 @@ export const problems: Problem[] = [
     diySafetyChecks: [
       "Check the inlet hose connection at the tap and the back of the machine is tightened",
       "Inspect the door gasket for visible tears, trapped debris or detergent build-up",
-      "Note exactly which phase (fill, wash, drain, spin) the leak happens during — this narrows the cause significantly",
+      "Note exactly which phase (fill, wash, drain, spin) the leak happens during - this narrows the cause significantly",
     ],
     whenToCallAPro: [
       "Leak happens during spin specifically (often a tub seal/bearing issue, not DIY-fixable)",
@@ -266,7 +266,7 @@ export const problems: Problem[] = [
       {
         cause: "Faulty magnetron",
         explanation:
-          "The magnetron generates the microwaves that heat food — if it fails, everything else can run normally while heating stops completely.",
+          "The magnetron generates the microwaves that heat food - if it fails, everything else can run normally while heating stops completely.",
       },
       {
         cause: "Failed high-voltage diode or capacitor",
@@ -282,10 +282,10 @@ export const problems: Problem[] = [
     diySafetyChecks: [
       "Confirm the turntable and interior light work normally (rules out a total power failure)",
       "Test with a microwave-safe cup of water for 60 seconds to confirm the no-heat symptom",
-      "Do not open the microwave casing yourself — high-voltage capacitors can hold a dangerous charge even when unplugged",
+      "Do not open the microwave casing yourself - high-voltage capacitors can hold a dangerous charge even when unplugged",
     ],
     whenToCallAPro: [
-      "Always — no-heat faults involve high-voltage electrical components that aren't safe for DIY repair",
+      "Always - no-heat faults involve high-voltage electrical components that aren't safe for DIY repair",
     ],
     relatedErrorCodeSlugs: [],
     relatedProblemSlugs: ["microwave-sparking"],
@@ -319,10 +319,10 @@ export const problems: Problem[] = [
     diySafetyChecks: [
       "Stop using the microwave immediately and unplug it",
       "Check for and remove any metal objects inside",
-      "Do not attempt to run the microwave again until it's inspected — continued use risks further damage or fire",
+      "Do not attempt to run the microwave again until it's inspected - continued use risks further damage or fire",
     ],
     whenToCallAPro: [
-      "Always, once metal objects are ruled out — a damaged waveguide cover or cavity needs professional replacement",
+      "Always, once metal objects are ruled out - a damaged waveguide cover or cavity needs professional replacement",
     ],
     relatedErrorCodeSlugs: [],
     relatedProblemSlugs: ["microwave-not-heating"],
@@ -397,7 +397,7 @@ export const problems: Problem[] = [
     diySafetyChecks: [
       "Confirm you're using dishwasher-specific detergent, not regular dish soap",
       "Check the door gasket for visible gaps, food debris or tears",
-      "Make sure the dishwasher is level — an unlevel unit can leak from the door",
+      "Make sure the dishwasher is level - an unlevel unit can leak from the door",
     ],
     whenToCallAPro: [
       "The leak continues after ruling out detergent and gasket issues",
@@ -432,9 +432,9 @@ export const problems: Problem[] = [
       },
     ],
     diySafetyChecks: [
-      "Check and clean the lint filter — heavy lint build-up is a common contributing cause",
+      "Check and clean the lint filter - heavy lint build-up is a common contributing cause",
       "Confirm the exhaust vent outside isn't blocked, which can trigger a safety cut-off",
-      "Do not attempt to access or replace the heating element or thermal fuse yourself — this is a mains-powered electrical repair",
+      "Do not attempt to access or replace the heating element or thermal fuse yourself - this is a mains-powered electrical repair",
     ],
     whenToCallAPro: [
       "Heating doesn't return after clearing lint and checking the vent",
