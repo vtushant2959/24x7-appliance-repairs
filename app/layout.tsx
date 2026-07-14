@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -40,6 +41,19 @@ export default function RootLayout({
   };
   return (
     <html lang="en-IN" className={inter.variable}>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18315353596"
+          strategy="beforeInteractive"
+        />
+        <Script id="google-tag" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18315353596');`}
+        </Script>
+      </head>
       <body id="top" className="font-sans">
         <Analytics />
         <Header />

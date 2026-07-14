@@ -25,15 +25,12 @@ export function Analytics() {
         </>
       )}
       {hasGA4 && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}
-            strategy="afterInteractive"
-          />
-          <Script id="ga4" strategy="afterInteractive">
-            {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${ga4Id}');`}
-          </Script>
-        </>
+        // Reuses the gtag.js loader already injected in <head> (see app/layout.tsx) -
+        // Google's guidance is to never load gtag.js more than once per page, so this
+        // only adds a config call for the extra GA4 property rather than a second loader.
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('config', '${ga4Id}');`}
+        </Script>
       )}
       {hasClarity && (
         <Script id="clarity" strategy="afterInteractive">
